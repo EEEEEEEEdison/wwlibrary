@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Chisa_Hiyuki_Lucilla_coyomii_1.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Chisa_Hiyuki_Lucilla_coyomii_1.0.0.zip",
       "name": "Chisa_Hiyuki_Lucilla",
-      "description": "绯洛千25秒轮椅轴\n【使用说明】V1.0.0\n1. 最低共鸣链适配：00千咲 / 01绯雪 / 00洛瑟拉。\n2. 测试共鸣效率：117%千咲 / 117%绯雪 / 100%洛瑟拉。\n3. 一号位角色：绯雪。\n4. 自动切换治疗位：不需要开启。代码已把千咲奶妈角色设置成False了。\n5. 轴的特色：本代码参考B站长风ei的绯洛千25秒轮椅轴，同时增加了千咲残响条识别功能。\n6. 适用等级：【日常】。已测试无需人工干预完成刷聚落、刷4C、大世界战斗，并适配被肘、协奏未满、大招未满等异常情况。建议使用优先级（均已测试）：【海墟下半】>【矩阵】=【深塔】>【海墟上半】=【日常】",
+      "description": "【场景】日常、矩阵、深塔、海墟上半、海墟下半、刷4c\n【难度】高容错\n\n【说明】\n绯洛千25秒轮椅轴\n【使用说明】V1.0.0\n1. 最低共鸣链适配：00千咲 / 01绯雪 / 00洛瑟拉。\n2. 测试共鸣效率：117%千咲 / 117%绯雪 / 100%洛瑟拉。\n3. 一号位角色：绯雪。\n4. 自动切换治疗位：不需要开启。代码已把千咲奶妈角色设置成False了。\n5. 轴的特色：本代码参考B站长风ei的绯洛千25秒轮椅轴，同时增加了千咲残响条识别功能。\n6. 适用等级：【日常】。已测试无需人工干预完成刷聚落、刷4C、大世界战斗，并适配被肘、协奏未满、大招未满等异常情况。建议使用优先级（均已测试）：【海墟下半】>【矩阵】=【深塔】>【海墟上半】=【日常】\n",
       "author": "coyomii",
       "version": "1.0.0",
       "team": "Chisa, Hiyuki, Lucilla",
@@ -23,10 +23,19 @@
         "Hiyuki",
         "Lucilla"
       ],
-      "size": 49014,
-      "sizeFormatted": "47.87 KB",
+      "size": 49114,
+      "sizeFormatted": "47.96 KB",
       "timestamp": 1792062711,
-      "modifiedAt": "2026-10-15T11:11:51.000Z"
+      "modifiedAt": "2026-10-15T11:11:51.000Z",
+      "scenes": [
+        "日常",
+        "矩阵",
+        "深塔",
+        "海墟上半",
+        "海墟下半",
+        "刷4c"
+      ],
+      "difficulty": "高容错"
     }
   ]
 }

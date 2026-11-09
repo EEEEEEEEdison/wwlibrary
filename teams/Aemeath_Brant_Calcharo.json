@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Aemeath_Brant_Calcharo_3_1.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Aemeath_Brant_Calcharo_3_1.0.0.zip",
       "name": "Aemeath_Brant_Calcharo",
-      "description": "3",
+      "description": "【场景】日常\n【难度】高容错\n\n【说明】\n作者未填写详细说明。\n",
       "author": "3",
       "version": "1.0.0",
       "team": "Aemeath, Brant, Calcharo",
@@ -23,10 +23,14 @@
         "Brant",
         "Calcharo"
       ],
-      "size": 2957,
-      "sizeFormatted": "2.89 KB",
+      "size": 3081,
+      "sizeFormatted": "3.01 KB",
       "timestamp": 1787026177,
-      "modifiedAt": "2026-08-18T04:09:37.000Z"
+      "modifiedAt": "2026-08-18T04:09:37.000Z",
+      "scenes": [
+        "日常"
+      ],
+      "difficulty": "高容错"
     }
   ]
 }

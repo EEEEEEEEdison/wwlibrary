@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Aemeath_Lynae_Mornye_%E6%9D%A5%E5%9C%B0%E7%90%83%E8%BF%99%E4%B9%88%E4%B9%85%EF%BC%8C%E6%83%B3%E8%BF%87%E5%AE%B6%E5%90%97%EF%BC%9F_1.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Aemeath_Lynae_Mornye_%E6%9D%A5%E5%9C%B0%E7%90%83%E8%BF%99%E4%B9%88%E4%B9%85%EF%BC%8C%E6%83%B3%E8%BF%87%E5%AE%B6%E5%90%97%EF%BC%9F_1.0.0.zip",
       "name": "Aemeath_Lynae_Mornye",
-      "description": "爱琳莫基础4R2进阶轴\n该轴较为稳定，复现难度低\n作者为3群群友，目前已不活跃，预计不会有更新",
+      "description": "【场景】日常\n【难度】高容错\n\n【说明】\n爱琳莫基础4R2进阶轴\n该轴较为稳定，复现难度低\n作者为3群群友，目前已不活跃，预计不会有更新\n",
       "author": "来地球这么久，想过家吗？",
       "version": "1.0.0",
       "team": "Aemeath, Lynae, Mornye",
@@ -23,17 +23,21 @@
         "Lynae",
         "Mornye"
       ],
-      "size": 5405,
-      "sizeFormatted": "5.28 KB",
+      "size": 5479,
+      "sizeFormatted": "5.35 KB",
       "timestamp": 1787107898,
-      "modifiedAt": "2026-08-19T02:51:38.000Z"
+      "modifiedAt": "2026-08-19T02:51:38.000Z",
+      "scenes": [
+        "日常"
+      ],
+      "difficulty": "高容错"
     },
     {
       "filename": "Aemeath_Lynae_Mornye_楽山_1.1.0.zip",
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
       "name": "Aemeath_Lynae_Mornye",
-      "description": "爱琳莫5R2椰果轴 （0链爱适用）\n样本：61爱00琳10莫（5阶异响）\n共效：爱弥斯128 琳奈142 莫宁290\n位置：一号位莫宁 二号位琳奈 三号位爱弥斯\n\n此轴已经实机跑通，可以复现，但是实战中BOSS不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意\n\n【优化】10/12\n1. 中途重来更方便：被打断、击飞或者转火把轴打乱了，不用重进副本，关一次自动战斗再打开，就会从启动轴第一步重新打。开关时如果琳奈在场，会直接切给莫宁起手，不会先把琳奈的 E 和 R 用掉。\n2. 循环轴琳奈重击接大招更稳：琳奈蓄力重击有两段伤害。旧版看到第一段后固定等 0.45 秒再开 R，两段挨得近的时候，R 会拖到空翻收招之后才出。现在等第二段伤害一打出来就马上开 R，大约快 0.2~0.5 秒，也不会把第二段打断。",
+      "description": "【场景】矩阵\n【难度】椰果\n\n【说明】\n爱琳莫5R2椰果轴 （0链爱适用）\n样本：61爱00琳10莫（5阶异响）\n共效：爱弥斯128 琳奈142 莫宁290\n位置：一号位莫宁 二号位琳奈 三号位爱弥斯\n\n此轴已经实机跑通，可以复现，但是实战中BOSS不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意\n\n【优化】10/12\n1. 中途重来更方便：被打断、击飞或者转火把轴打乱了，不用重进副本，关一次自动战斗再打开，就会从启动轴第一步重新打。开关时如果琳奈在场，会直接切给莫宁起手，不会先把琳奈的 E 和 R 用掉。\n2. 循环轴琳奈重击接大招更稳：琳奈蓄力重击有两段伤害。旧版看到第一段后固定等 0.45 秒再开 R，两段挨得近的时候，R 会拖到空翻收招之后才出。现在等第二段伤害一打出来就马上开 R，大约快 0.2~0.5 秒，也不会把第二段打断。\n",
       "author": "楽山",
       "version": "1.1.0",
       "team": "Aemeath, Lynae, Mornye",
@@ -42,17 +46,21 @@
         "Lynae",
         "Mornye"
       ],
-      "size": 92781,
-      "sizeFormatted": "90.61 KB",
+      "size": 92850,
+      "sizeFormatted": "90.67 KB",
       "timestamp": 1791762759,
-      "modifiedAt": "2026-10-11T23:52:39.000Z"
+      "modifiedAt": "2026-10-11T23:52:39.000Z",
+      "scenes": [
+        "矩阵"
+      ],
+      "difficulty": "椰果"
     },
     {
       "filename": "Aemeath_Lynae_Mornye_楽山_2.0.0.zip",
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_2.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_2.0.0.zip",
       "name": "Aemeath_Lynae_Mornye",
-      "description": "爱琳莫5R2（1链及以上爱弥斯限定）\n样本：61爱 00琳 11莫\n共效：爱弥斯128 琳奈142 莫宁290（共效仅为参考）\n位置：一号位莫宁 二号位琳奈 三号位 爱弥斯\n实机已通过，复现难度高，转火次数多复现难度继续加大，最好分辨率在2K/1K下，保证游戏ping值稳定且不卡，游戏内插帧开关关闭可以稳定120帧及以上（可以开启N卡插帧），优化了重启流程，现在流程错误可以马上关闭自动战斗开关再开启，重置启动流程。建议宝箱开，或者大体型boss开，避免琳奈协奏能量吃不满。",
+      "description": "【场景】矩阵\n【难度】低容错\n\n【说明】\n爱琳莫5R2（1链及以上爱弥斯限定）\n样本：61爱 00琳 11莫\n共效：爱弥斯128 琳奈142 莫宁290（共效仅为参考）\n位置：一号位莫宁 二号位琳奈 三号位 爱弥斯\n实机已通过，复现难度高，转火次数多复现难度继续加大，最好分辨率在2K/1K下，保证游戏ping值稳定且不卡，游戏内插帧开关关闭可以稳定120帧及以上（可以开启N卡插帧），优化了重启流程，现在流程错误可以马上关闭自动战斗开关再开启，重置启动流程。建议宝箱开，或者大体型boss开，避免琳奈协奏能量吃不满。\n",
       "author": "楽山",
       "version": "2.0.0",
       "team": "Aemeath, Lynae, Mornye",
@@ -61,17 +69,21 @@
         "Lynae",
         "Mornye"
       ],
-      "size": 117697,
-      "sizeFormatted": "114.94 KB",
+      "size": 117774,
+      "sizeFormatted": "115.01 KB",
       "timestamp": 1791762694,
-      "modifiedAt": "2026-10-11T23:51:34.000Z"
+      "modifiedAt": "2026-10-11T23:51:34.000Z",
+      "scenes": [
+        "矩阵"
+      ],
+      "difficulty": "低容错"
     },
     {
       "filename": "Aemeath_Lynae_Mornye_楽山_3.1.0.zip",
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_3.1.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_3.1.0.zip",
       "name": "Aemeath_Lynae_Mornye",
-      "description": "爱琳莫进阶轮椅轴优化版\n样本：61爱00琳11莫\n共效：爱弥斯125 琳奈140 莫宁260\n位置：一号位爱弥斯/莫宁 二号位琳奈 三号位莫宁/爱弥斯\n定位：【矩阵/深塔/莫宁起手时可以打海墟上半】\n实机已跑通，在原有作者的基础上进行了识别和操作上的优化，复现难度低，矩阵深塔最好小爱起手，海墟上半莫宁起手应该也是可以打的。\n修复了莫宁可能R的CD未好，导致流程错误的问题",
+      "description": "【场景】矩阵、深塔、海墟上半\n【难度】高容错\n\n【说明】\n爱琳莫进阶轮椅轴优化版\n样本：61爱00琳11莫\n共效：爱弥斯125 琳奈140 莫宁260\n位置：一号位爱弥斯/莫宁 二号位琳奈 三号位莫宁/爱弥斯\n定位：【矩阵/深塔/莫宁起手时可以打海墟上半】\n实机已跑通，在原有作者的基础上进行了识别和操作上的优化，复现难度低，矩阵深塔最好小爱起手，海墟上半莫宁起手应该也是可以打的。\n修复了莫宁可能R的CD未好，导致流程错误的问题\n",
       "author": "楽山",
       "version": "3.1.0",
       "team": "Aemeath, Lynae, Mornye",
@@ -80,10 +92,16 @@
         "Lynae",
         "Mornye"
       ],
-      "size": 10945,
-      "sizeFormatted": "10.69 KB",
+      "size": 11030,
+      "sizeFormatted": "10.77 KB",
       "timestamp": 1793211040,
-      "modifiedAt": "2026-10-28T18:10:40.000Z"
+      "modifiedAt": "2026-10-28T18:10:40.000Z",
+      "scenes": [
+        "矩阵",
+        "深塔",
+        "海墟上半"
+      ],
+      "difficulty": "高容错"
     }
   ]
 }

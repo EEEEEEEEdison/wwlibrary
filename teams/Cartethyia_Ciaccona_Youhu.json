@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Cartethyia_Ciaccona_Youhu_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Cartethyia_Ciaccona_Youhu_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
       "name": "Cartethyia_Ciaccona_Youhu",
-      "description": "卡夏5R10下轴（2链卡限定）\n样本：31卡01夏空60釉瑚（不上场）\n共效：卡提130 夏空150\n位置：一号位卡提 二号位夏空 三号位釉瑚\n实机已跑通，复现难度较高，主要问题在于启动轮次需要稳定，建议宝箱开，或者开局攻击欲望不高的BOSS开，本轴全场容错在2S 但如果中间打的很差 应该也有4R",
+      "description": "【场景】日常\n【难度】低容错\n\n【说明】\n卡夏5R10下轴（2链卡限定）\n样本：31卡01夏空60釉瑚（不上场）\n共效：卡提130 夏空150\n位置：一号位卡提 二号位夏空 三号位釉瑚\n实机已跑通，复现难度较高，主要问题在于启动轮次需要稳定，建议宝箱开，或者开局攻击欲望不高的BOSS开，本轴全场容错在2S 但如果中间打的很差 应该也有4R\n",
       "author": "楽山",
       "version": "1.0.0",
       "team": "Cartethyia, Ciaccona, Youhu",
@@ -23,10 +23,14 @@
         "Ciaccona",
         "Youhu"
       ],
-      "size": 31918,
-      "sizeFormatted": "31.17 KB",
+      "size": 31989,
+      "sizeFormatted": "31.24 KB",
       "timestamp": 1793188855,
-      "modifiedAt": "2026-10-28T12:00:55.000Z"
+      "modifiedAt": "2026-10-28T12:00:55.000Z",
+      "scenes": [
+        "日常"
+      ],
+      "difficulty": "低容错"
     }
   ]
 }

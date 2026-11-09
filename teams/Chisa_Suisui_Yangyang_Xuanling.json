@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Chisa_Suisui_Yangyang_Xuanling_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Chisa_Suisui_Yangyang_Xuanling_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
       "name": "Chisa_Suisui_Yangyang:_Xuanling",
-      "description": "秧千穗轮椅轴\n一号位穗穗 二号位千咲 三号位秧秧\n样本为01秧01千00穗（精5奇幻）秧秧共效为145 千咲为139 穗穗为270实际效率应该可以不需要这么高 只需要达到标准练度即可\n实机跑通率高，增加了部分保底机制，但由于boss攻击模式不同，仍有可能出现问题。",
+      "description": "【场景】日常\n【难度】高容错\n\n【说明】\n秧千穗轮椅轴\n一号位穗穗 二号位千咲 三号位秧秧\n样本为01秧01千00穗（精5奇幻）秧秧共效为145 千咲为139 穗穗为270实际效率应该可以不需要这么高 只需要达到标准练度即可\n实机跑通率高，增加了部分保底机制，但由于boss攻击模式不同，仍有可能出现问题。\n",
       "author": "楽山",
       "version": "1.0.0",
       "team": "Chisa, Suisui, Yangyang: Xuanling",
@@ -23,17 +23,21 @@
         "Suisui",
         "Yangyang: Xuanling"
       ],
-      "size": 45838,
-      "sizeFormatted": "44.76 KB",
+      "size": 45920,
+      "sizeFormatted": "44.84 KB",
       "timestamp": 1787625006,
-      "modifiedAt": "2026-08-25T02:30:06.000Z"
+      "modifiedAt": "2026-08-25T02:30:06.000Z",
+      "scenes": [
+        "日常"
+      ],
+      "difficulty": "高容错"
     },
     {
       "filename": "Chisa_Suisui_Yangyang__Xuanling_楽山_2.0.0.zip",
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Chisa_Suisui_Yangyang__Xuanling_%E6%A5%BD%E5%B1%B1_2.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Chisa_Suisui_Yangyang__Xuanling_%E6%A5%BD%E5%B1%B1_2.0.0.zip",
       "name": "Chisa_Suisui_Yangyang:_Xuanling",
-      "description": "秧千穗2羽1苍4R轴\n样本：01秧秧01千咲00穗穗（精5奇幻）\n共效：秧秧145 千咲139 穗穗270 实际效率不需要这么高，达到标准练度即可\n位置：一号位穗穗 二号位千咲 三号位秧秧\n实机已跑通，演示视频可以查看B站，与作者ID同名\n建议游戏环境在不开启游戏内插帧（可以开N卡插帧）的情况下，稳定在60帧及以上，且网络环境稳定。",
+      "description": "【场景】日常\n【难度】高容错\n\n【说明】\n秧千穗2羽1苍4R轴\n样本：01秧秧01千咲00穗穗（精5奇幻）\n共效：秧秧145 千咲139 穗穗270 实际效率不需要这么高，达到标准练度即可\n位置：一号位穗穗 二号位千咲 三号位秧秧\n实机已跑通，演示视频可以查看B站，与作者ID同名\n建议游戏环境在不开启游戏内插帧（可以开N卡插帧）的情况下，稳定在60帧及以上，且网络环境稳定。\n",
       "author": "楽山",
       "version": "2.0.0",
       "team": "Chisa, Suisui, Yangyang: Xuanling",
@@ -42,10 +46,14 @@
         "Suisui",
         "Yangyang: Xuanling"
       ],
-      "size": 76621,
-      "sizeFormatted": "74.83 KB",
+      "size": 76697,
+      "sizeFormatted": "74.90 KB",
       "timestamp": 1790564787,
-      "modifiedAt": "2026-09-28T03:06:27.000Z"
+      "modifiedAt": "2026-09-28T03:06:27.000Z",
+      "scenes": [
+        "日常"
+      ],
+      "difficulty": "高容错"
     }
   ]
 }

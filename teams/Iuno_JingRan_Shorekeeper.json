@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Iuno_JingRan_Shorekeeper_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Iuno_JingRan_Shorekeeper_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
       "name": "Iuno_JingRan_Shorekeeper",
-      "description": "景月守轮椅轴\n样本：01景01月（首位声骸海之女）11守\n共效：景燃130 月130 守260\n位置：一号位守岸人 二号位月 三号位景燃\n实机已跑通，复现难度不高，如果一切顺利应该能5R 不过实战基本都是到不了5R的 以保底稳定为主 \n注意 优诺的效率最好不要低于130 更高更好 太低了可能会导致循环轴里R能量不足 虽然不会特别影响流程",
+      "description": "【场景】日常\n【难度】高容错\n\n【说明】\n景月守轮椅轴\n样本：01景01月（首位声骸海之女）11守\n共效：景燃130 月130 守260\n位置：一号位守岸人 二号位月 三号位景燃\n实机已跑通，复现难度不高，如果一切顺利应该能5R 不过实战基本都是到不了5R的 以保底稳定为主\n注意 优诺的效率最好不要低于130 更高更好 太低了可能会导致循环轴里R能量不足 虽然不会特别影响流程\n",
       "author": "楽山",
       "version": "1.0.0",
       "team": "Iuno, JingRan, Shorekeeper",
@@ -23,10 +23,14 @@
         "JingRan",
         "Shorekeeper"
       ],
-      "size": 32423,
-      "sizeFormatted": "31.66 KB",
+      "size": 32498,
+      "sizeFormatted": "31.74 KB",
       "timestamp": 1790602196,
-      "modifiedAt": "2026-09-28T13:29:56.000Z"
+      "modifiedAt": "2026-09-28T13:29:56.000Z",
+      "scenes": [
+        "日常"
+      ],
+      "difficulty": "高容错"
     }
   ]
 }

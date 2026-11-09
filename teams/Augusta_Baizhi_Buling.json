@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Augusta_Baizhi_Buling_4_1.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Augusta_Baizhi_Buling_4_1.0.0.zip",
       "name": "Augusta_Baizhi_Buling",
-      "description": "4",
+      "description": "【场景】日常\n【难度】高容错\n\n【说明】\n作者未填写详细说明。\n",
       "author": "4",
       "version": "1.0.0",
       "team": "Augusta, Baizhi, Buling",
@@ -23,10 +23,14 @@
         "Baizhi",
         "Buling"
       ],
-      "size": 2706,
-      "sizeFormatted": "2.64 KB",
+      "size": 2830,
+      "sizeFormatted": "2.76 KB",
       "timestamp": 1787026177,
-      "modifiedAt": "2026-08-18T04:09:37.000Z"
+      "modifiedAt": "2026-08-18T04:09:37.000Z",
+      "scenes": [
+        "日常"
+      ],
+      "difficulty": "高容错"
     }
   ]
 }

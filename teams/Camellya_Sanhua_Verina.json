@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Camellya_Sanhua_Verina_cm%2601%E6%A4%BF%E3%80%816%E6%95%A3%E5%8D%8E%2B1%E5%8D%83%E5%8F%A4%E3%80%811%E7%BB%B4%E9%87%8C%E5%A5%88%2B1%E5%A5%87%E5%B9%BB%E5%8F%98%E5%A5%8F_1.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Camellya_Sanhua_Verina_cm%2601%E6%A4%BF%E3%80%816%E6%95%A3%E5%8D%8E%2B1%E5%8D%83%E5%8F%A4%E3%80%811%E7%BB%B4%E9%87%8C%E5%A5%88%2B1%E5%A5%87%E5%B9%BB%E5%8F%98%E5%A5%8F_1.0.0.zip",
       "name": "Camellya_Sanhua_Verina",
-      "description": "01椿、6散华+1千古、1维里奈+1奇幻变奏\n在【实时触发】→【自动战斗】处不要开奶妈首发。\n循环轴：\n椿首发贪个e，然后散华erz，维里奈eqra打满协奏椿变奏入场。\n椿协奏打到一半换散华q，椿再变奏入场一日花+r，再打满输出。\n最后敬佩作者开发的工具和牛逼的代码，我都不知道我改的会不会反而负优化。",
+      "description": "【场景】日常\n【难度】高容错\n\n【说明】\n01椿、6散华+1千古、1维里奈+1奇幻变奏\n在【实时触发】→【自动战斗】处不要开奶妈首发。\n循环轴：\n椿首发贪个e，然后散华erz，维里奈eqra打满协奏椿变奏入场。\n椿协奏打到一半换散华q，椿再变奏入场一日花+r，再打满输出。\n最后敬佩作者开发的工具和牛逼的代码，我都不知道我改的会不会反而负优化。\n",
       "author": "cm&01椿、6散华+1千古、1维里奈+1奇幻变奏",
       "version": "1.0.0",
       "team": "Camellya, Sanhua, Verina",
@@ -23,10 +23,14 @@
         "Sanhua",
         "Verina"
       ],
-      "size": 10832,
-      "sizeFormatted": "10.58 KB",
+      "size": 10910,
+      "sizeFormatted": "10.65 KB",
       "timestamp": 1787901120,
-      "modifiedAt": "2026-08-28T07:12:00.000Z"
+      "modifiedAt": "2026-08-28T07:12:00.000Z",
+      "scenes": [
+        "日常"
+      ],
+      "difficulty": "高容错"
     }
   ]
 }

@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hiyuki_Lynae_Suisui_Kexeyna_1.0.2.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hiyuki_Lynae_Suisui_Kexeyna_1.0.2.zip",
       "name": "Hiyuki_Lynae_Suisui",
-      "description": "绯琳穗轮切轴\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n删除琳奈延奏放E、绯雪延奏放E\n绯雪：122.4% 0+1\n穗穗：297.8% 0+1\n琳奈：125.2% 0+相位涟漪\n\n仅在这两种环境测试过，其余环境没试过，充能大于以下即可，更低值未测试过\n穗穗：0+1，共鸣效率 297.8%\n琳奈：0+0《相位涟漪》，共鸣效率 125.2%\n绯雪：0+1，共鸣效率 122.4%",
+      "description": "【场景】日常\n【难度】高容错\n\n【说明】\n绯琳穗轮切轴\n\n删除琳奈延奏放E、绯雪延奏放E\n绯雪：122.4% 0+1\n穗穗：297.8% 0+1\n琳奈：125.2% 0+相位涟漪\n\n仅在这两种环境测试过，其余环境没试过，充能大于以下即可，更低值未测试过\n穗穗：0+1，共鸣效率 297.8%\n琳奈：0+0《相位涟漪》，共鸣效率 125.2%\n绯雪：0+1，共鸣效率 122.4%\n",
       "author": "Kexeyna",
       "version": "1.0.2",
       "team": "Hiyuki, Lynae, Suisui",
@@ -23,10 +23,14 @@
         "Lynae",
         "Suisui"
       ],
-      "size": 5112,
-      "sizeFormatted": "4.99 KB",
+      "size": 5185,
+      "sizeFormatted": "5.06 KB",
       "timestamp": 1789630476,
-      "modifiedAt": "2026-09-17T07:34:36.000Z"
+      "modifiedAt": "2026-09-17T07:34:36.000Z",
+      "scenes": [
+        "日常"
+      ],
+      "difficulty": "高容错"
     }
   ]
 }
