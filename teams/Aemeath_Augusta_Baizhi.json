@@ -1,0 +1,32 @@
+{
+  "team": "Aemeath, Augusta, Baizhi",
+  "slug": "Aemeath_Augusta_Baizhi",
+  "members": [
+    "Aemeath",
+    "Augusta",
+    "Baizhi"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams/Aemeath_Augusta_Baizhi.json",
+  "codes": [
+    {
+      "filename": "Aemeath_Augusta_Baizhi_11_1.0.0.zip",
+      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Aemeath_Augusta_Baizhi_11_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Aemeath_Augusta_Baizhi_11_1.0.0.zip",
+      "name": "Aemeath_Augusta_Baizhi",
+      "description": "11",
+      "author": "11",
+      "version": "1.0.0",
+      "team": "Aemeath, Augusta, Baizhi",
+      "members": [
+        "Aemeath",
+        "Augusta",
+        "Baizhi"
+      ],
+      "size": 3037,
+      "sizeFormatted": "2.97 KB",
+      "timestamp": 1787026177,
+      "modifiedAt": "2026-08-18T04:09:37.000Z"
+    }
+  ]
+}

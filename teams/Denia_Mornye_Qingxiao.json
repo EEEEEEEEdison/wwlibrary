@@ -1,0 +1,70 @@
+{
+  "team": "Denia, Mornye, Qingxiao",
+  "slug": "Denia_Mornye_Qingxiao",
+  "members": [
+    "Denia",
+    "Mornye",
+    "Qingxiao"
+  ],
+  "totalCodes": 3,
+  "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams/Denia_Mornye_Qingxiao.json",
+  "codes": [
+    {
+      "filename": "Denia_Mornye_Qingxiao_Kexeyna_1.0.2.zip",
+      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Denia_Mornye_Qingxiao_Kexeyna_1.0.2.zip",
+      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Denia_Mornye_Qingxiao_Kexeyna_1.0.2.zip",
+      "name": "Denia_Mornye_Qingxiao",
+      "description": "清达莫轮切轴优化\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n基于官方代码优化，释放声骸及其一些小改动 \n清宵：143.2% 0+专武 \n达妮娅：120.4% 0+漪澜浮录 \n莫宁：274.2% 0+异响空灵\n仅在这两种环境测试过，其余环境没试过，充能大于以下即可，更低值未测试过\n莫宁：0+0《异响空灵》，共鸣效率 260.8% \n达妮娅：0+0《漪澜浮录》，共鸣效率 120.4% \n清宵：0+1，共鸣效率 106.8%",
+      "author": "Kexeyna",
+      "version": "1.0.2",
+      "team": "Denia, Mornye, Qingxiao",
+      "members": [
+        "Denia",
+        "Mornye",
+        "Qingxiao"
+      ],
+      "size": 3482,
+      "sizeFormatted": "3.40 KB",
+      "timestamp": 1789630460,
+      "modifiedAt": "2026-09-17T07:34:20.000Z"
+    },
+    {
+      "filename": "Denia_Mornye_Qingxiao_楽山_1.0.0.zip",
+      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Denia_Mornye_Qingxiao_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Denia_Mornye_Qingxiao_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "name": "Denia_Mornye_Qingxiao",
+      "description": "清达莫轮切轮椅轴\n实机已跑通 样本为01清01达00莫（精5异响）1号位清2号位达3号位莫\n高金队伍可能会损失伤害\n实机加了诸多保底机制 复现率高 \n但是依旧有被肘 或者莫宁E技能空了以后 轴长拉长 或者处决不及时损失伤害的情况，属于不可抗力\n目前此版本跑通无压力 依旧有改善空间，等待后续优化",
+      "author": "楽山",
+      "version": "1.0.0",
+      "team": "Denia, Mornye, Qingxiao",
+      "members": [
+        "Denia",
+        "Mornye",
+        "Qingxiao"
+      ],
+      "size": 65649,
+      "sizeFormatted": "64.11 KB",
+      "timestamp": 1787352088,
+      "modifiedAt": "2026-08-21T22:41:28.000Z"
+    },
+    {
+      "filename": "Denia_Mornye_Qingxiao_楽山_1.0.2.zip",
+      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Denia_Mornye_Qingxiao_%E6%A5%BD%E5%B1%B1_1.0.2.zip",
+      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Denia_Mornye_Qingxiao_%E6%A5%BD%E5%B1%B1_1.0.2.zip",
+      "name": "Denia_Mornye_Qingxiao",
+      "description": "清达莫5R5Z轴\n样本：01清01达11莫\n效率：清130达135莫270\n位置：一号位清霄 二号位达尼娅 三号位莫宁\n环境参考：2K分辨率下N卡4X插帧稳定在240帧，ping值在130左右\n  实机已跑通，R2宝箱开，目前一次转火可以跑通，二次转火没有测试，成功情况未知。流程并不十分完美，但是尚可接受，主要为清霄R的CD未转好，暂时不知道如何解决。\n  轴未设置保底，被肘即重开\n  演示视频可以去B站搜本人昵称，用作参考",
+      "author": "楽山",
+      "version": "1.0.2",
+      "team": "Denia, Mornye, Qingxiao",
+      "members": [
+        "Denia",
+        "Mornye",
+        "Qingxiao"
+      ],
+      "size": 79495,
+      "sizeFormatted": "77.63 KB",
+      "timestamp": 1788807192,
+      "modifiedAt": "2026-09-07T18:53:12.000Z"
+    }
+  ]
+}

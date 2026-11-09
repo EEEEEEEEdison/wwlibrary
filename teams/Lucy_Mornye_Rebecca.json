@@ -1,0 +1,32 @@
+{
+  "team": "Lucy, Mornye, Rebecca",
+  "slug": "Lucy_Mornye_Rebecca",
+  "members": [
+    "Lucy",
+    "Mornye",
+    "Rebecca"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams/Lucy_Mornye_Rebecca.json",
+  "codes": [
+    {
+      "filename": "Lucy_Mornye_Rebecca_楽山_1.0.0.zip",
+      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Lucy_Mornye_Rebecca_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Lucy_Mornye_Rebecca_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "name": "Lucy_Mornye_Rebecca",
+      "description": "露丽莫轮椅轴\n样本：41露西00丽贝卡10莫宁\n共效：露西120丽贝卡132莫宁270\n位置：一号位露西 二号位丽贝卡 三号位莫宁\n实机已跑通，复现难度视boss而定，一般来说问题不大。不清楚2链以下露西大招对于选择项有什么影响，如果有问题可以联系我。\nTips：露西和丽贝卡大招需要视野里有怪物，如果怪物飞天需要手动调整下视角",
+      "author": "楽山",
+      "version": "1.0.0",
+      "team": "Lucy, Mornye, Rebecca",
+      "members": [
+        "Lucy",
+        "Mornye",
+        "Rebecca"
+      ],
+      "size": 46802,
+      "sizeFormatted": "45.71 KB",
+      "timestamp": 1789440519,
+      "modifiedAt": "2026-09-15T02:48:39.000Z"
+    }
+  ]
+}

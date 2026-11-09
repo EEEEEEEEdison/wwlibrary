@@ -1,0 +1,32 @@
+{
+  "team": "Mortefi, Suisui, Yangyang: Xuanling",
+  "slug": "Mortefi_Suisui_Yangyang_Xuanling",
+  "members": [
+    "Mortefi",
+    "Suisui",
+    "Yangyang: Xuanling"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams/Mortefi_Suisui_Yangyang_Xuanling.json",
+  "codes": [
+    {
+      "filename": "Mortefi_Suisui_Yangyang__Xuanling_凡衡_1.0.0.zip",
+      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Mortefi_Suisui_Yangyang__Xuanling_%E5%87%A1%E8%A1%A1_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Mortefi_Suisui_Yangyang__Xuanling_%E5%87%A1%E8%A1%A1_1.0.0.zip",
+      "name": "Mortefi_Suisui_Yangyang:_Xuanling",
+      "description": "秧莫穗4r二羽一苍（协奏枪莫特斐）\n使用规范：\n1、配置按最低适配，即00秧秧、精1协奏枪莫特斐、精1奇幻变奏穗穗可用；\n2、共效要求：秧秧 110（仅声骇套装）、莫特斐 151（仅协奏枪）、穗穗 260（正常毕业）；\n3、最好秧秧开局，莫特斐和穗穗开局都会先切回秧秧再开跑；\n4、不要开启自动切换治疗位；\n5、每次使用需重新开启自动战斗，开局发呆的话要自行点鼠标中键锁定目标；\n6、【低容错战斗】仅在开局满能量的场景使用此轴，如矩阵和深塔，写有一定的保底机制，但并不绝对，遇敌被肘打不出完整轮次的概率非常高，需要多试几次。遇到弹刀或飞天则会直接断轴。\n\n轴来源：B站 BV125Yq6PEmX\n实战演示：B站 BV1r6Jb6TEaA",
+      "author": "凡衡",
+      "version": "1.0.0",
+      "team": "Mortefi, Suisui, Yangyang: Xuanling",
+      "members": [
+        "Mortefi",
+        "Suisui",
+        "Yangyang: Xuanling"
+      ],
+      "size": 87069,
+      "sizeFormatted": "85.03 KB",
+      "timestamp": 1792306088,
+      "modifiedAt": "2026-10-18T06:48:08.000Z"
+    }
+  ]
+}

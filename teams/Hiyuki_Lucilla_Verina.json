@@ -1,0 +1,32 @@
+{
+  "team": "Hiyuki, Lucilla, Verina",
+  "slug": "Hiyuki_Lucilla_Verina",
+  "members": [
+    "Hiyuki",
+    "Lucilla",
+    "Verina"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams/Hiyuki_Lucilla_Verina.json",
+  "codes": [
+    {
+      "filename": "Hiyuki_Lucilla_Verina_a38999_1.0.0.zip",
+      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hiyuki_Lucilla_Verina_a38999_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hiyuki_Lucilla_Verina_a38999_1.0.0.zip",
+      "name": "Hiyuki_Lucilla_Verina",
+      "description": "绯洛维25s4居合标准轴，开局需要切到维里奈\n\n绯雪共鸣效率需求120+，最好125+，无命座需求。\n洛瑟菈共鸣效率100，无命座需求。\n维里奈共鸣效率240+，需要有高精奇幻变奏或者2链。",
+      "author": "a38999",
+      "version": "1.0.0",
+      "team": "Hiyuki, Lucilla, Verina",
+      "members": [
+        "Hiyuki",
+        "Lucilla",
+        "Verina"
+      ],
+      "size": 16422,
+      "sizeFormatted": "16.04 KB",
+      "timestamp": 1787886161,
+      "modifiedAt": "2026-08-28T03:02:41.000Z"
+    }
+  ]
+}

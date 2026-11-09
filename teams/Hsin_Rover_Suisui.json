@@ -1,0 +1,32 @@
+{
+  "team": "Hsin, Rover, Suisui",
+  "slug": "Hsin_Rover_Suisui",
+  "members": [
+    "Hsin",
+    "Rover",
+    "Suisui"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams/Hsin_Rover_Suisui.json",
+  "codes": [
+    {
+      "filename": "Hsin_Rover_Suisui_楽山_1.1.0.zip",
+      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hsin_Rover_Suisui_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hsin_Rover_Suisui_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
+      "name": "Hsin_Rover_Suisui",
+      "description": "心雷穗轮椅轴 \n样本：61心21雷（带千古）00穗（带5阶奇幻） \n共效：心128雷168（带新雷套 首位3C声骸）穗260 \n位置：一号位穗穗 二号位雷主 三号位心 \n实机已跑通 复现难度低 轴参考B站UP长风ei 可以自己去看流程\n心雷穗 v1.1.0 优化说明（相对 v1.0.0）\n【心】\n1. 转相提速：应世心一清空就松开重击（步红尘不会被打断），从这一刻起连按 R，转相一解锁就放出。实机从清空到转相出手 1.8～2.2 秒。\n2. 万阙垂天能量不够时先攒：临寰宇之后认不出万阙垂天图标，说明大招能量不够。以前直接不放，心会一直留在照世相；现在先普攻攒能量（最多 5 秒），认出来再放，按了没出就再攒一下重按。实在攒不到还是不按 R（防止放成借相）。\n3. 万阙垂天如果把这一波怪清掉了，会等新怪刷出来（最多 4 秒）再变奏穗穗。穗穗变奏入场要打中怪才回协奏，打空的话后面大招前协奏不够；而且濯雨时从变奏那一刻才开始算，等这一下不耽误。\n\n【穗穗】\n1. 大招前协奏不到 82% 一定先补够（大招只回 20 协奏），不再因为\"濯雨时快结束\"跳过补协奏，保证大招后能变奏雷主。\n\n【通用】\n1. 修正协奏环误读：框架偶尔把已经满了的协奏环读成 99%（环满了但没认成闭合），导致多打好几下普攻才切人。现在面积已满、连续 3 帧就当满。\n\n【实机】\n10 月 9 日跑了 3 圈循环：转相在应世心清空后 1.8～2.2 秒出手；每圈万阙垂天清场后等新怪 0.15～2.2 秒再变奏穗穗。\n\n【注意】\n- 清场后等新怪最多 4 秒，整场打完等不到会照常切人。",
+      "author": "楽山",
+      "version": "1.1.0",
+      "team": "Hsin, Rover, Suisui",
+      "members": [
+        "Hsin",
+        "Rover",
+        "Suisui"
+      ],
+      "size": 43519,
+      "sizeFormatted": "42.50 KB",
+      "timestamp": 1791515920,
+      "modifiedAt": "2026-10-09T03:18:40.000Z"
+    }
+  ]
+}

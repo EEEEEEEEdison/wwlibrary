@@ -1,0 +1,32 @@
+{
+  "team": "Chixia, Phrolova, Verina",
+  "slug": "Chixia_Phrolova_Verina",
+  "members": [
+    "Chixia",
+    "Phrolova",
+    "Verina"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams/Chixia_Phrolova_Verina.json",
+  "codes": [
+    {
+      "filename": "Chixia_Phrolova_Verina_琉璃_1.0.1.zip",
+      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Chixia_Phrolova_Verina_%E7%90%89%E7%92%83_1.0.1.zip",
+      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Chixia_Phrolova_Verina_%E7%90%89%E7%92%83_1.0.1.zip",
+      "name": "Chixia_Phrolova_Verina",
+      "description": "弗维刷4c，内置 不同连招模板！！！\n可在角色代码处改弗和维的，适配0-6弗和0-6维\n不过0弗的话，除非你没其他高链角色和角色池少的话，不然应该是没其他配队快的，不过也可以试试\n更改连招可自行尝试不同连招，弗维各3套，不同boss不同连招会有不同速度\n1.全适配共鸣链\n2.无共鸣效率需求\n3.谁进场都可以，弗最好先存6个音符，不存也可以就是第一次打boss会慢\n4.开启自动切换治疗位，关闭开启大招\n5.维4c带无归最好，炽霞无需练度带个乌龟即可，伤害够或者懒也可不换\n6.速刷4c队\n7.部分boss没有自动重开，例如梦魇光鸟，我2弗在100掉率次数没用的情况下可达到170+每小时，自行尝试，梦魇光鸟还是不太合适毕竟85级而且血少，不过懒的测更多了",
+      "author": "琉璃",
+      "version": "1.0.1",
+      "team": "Chixia, Phrolova, Verina",
+      "members": [
+        "Chixia",
+        "Phrolova",
+        "Verina"
+      ],
+      "size": 4509,
+      "sizeFormatted": "4.40 KB",
+      "timestamp": 1792320479,
+      "modifiedAt": "2026-10-18T10:47:59.000Z"
+    }
+  ]
+}

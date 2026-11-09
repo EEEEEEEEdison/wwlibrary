@@ -1,0 +1,32 @@
+{
+  "team": "Augusta, Baizhi, Buling",
+  "slug": "Augusta_Baizhi_Buling",
+  "members": [
+    "Augusta",
+    "Baizhi",
+    "Buling"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams/Augusta_Baizhi_Buling.json",
+  "codes": [
+    {
+      "filename": "Augusta_Baizhi_Buling_4_1.0.0.zip",
+      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Augusta_Baizhi_Buling_4_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Augusta_Baizhi_Buling_4_1.0.0.zip",
+      "name": "Augusta_Baizhi_Buling",
+      "description": "4",
+      "author": "4",
+      "version": "1.0.0",
+      "team": "Augusta, Baizhi, Buling",
+      "members": [
+        "Augusta",
+        "Baizhi",
+        "Buling"
+      ],
+      "size": 2706,
+      "sizeFormatted": "2.64 KB",
+      "timestamp": 1787026177,
+      "modifiedAt": "2026-08-18T04:09:37.000Z"
+    }
+  ]
+}
