@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Hsin_Shorekeeper_Suoming_楽山_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hsin_Shorekeeper_Suoming_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hsin_Shorekeeper_Suoming_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hsin_Shorekeeper_Suoming_1.0.0_3a2b3ce7.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hsin_Shorekeeper_Suoming_1.0.0_3a2b3ce7.zip",
       "name": "Hsin_Shorekeeper_Suoming",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n心锁守5R轴（2链心）\n样本：61心01锁20守（带精5奇幻变奏）\n共效：心125 锁（轻云套）130 守260\n位置：一号位守岸人 二号位锁瞑 三号位心\n实机已跑通，复现难度较高，比较吃怪物刷新\n建议使用鼠标中间尽快锁定，尽快启动\n高链心尽量在后面轮次打，尽量少转火，转火越少越容易复现\n最好分辨率在2K/1K下，保证游戏ping值稳定且不卡，游戏内插帧开关关闭可以稳定120帧及以上（可以开启N卡插帧），优化了重启流程，现在流程错误可以马上关闭自动战斗开关再开启，重置启动流程。\n",
       "author": "楽山",
@@ -32,12 +32,14 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Hsin_Shorekeeper_Suoming_1.0.0_3a2b3ce7.zip",
+      "downloadCount": 0
     },
     {
       "filename": "Hsin_Shorekeeper_Suoming_楽山_2.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hsin_Shorekeeper_Suoming_%E6%A5%BD%E5%B1%B1_2.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hsin_Shorekeeper_Suoming_%E6%A5%BD%E5%B1%B1_2.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hsin_Shorekeeper_Suoming_2.0.0_f99a3dd6.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hsin_Shorekeeper_Suoming_2.0.0_f99a3dd6.zip",
       "name": "Hsin_Shorekeeper_Suoming",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n心锁守轮椅轴\n样本：61心01锁21守\n共效：心125锁（轻云/新的心套装皆可）130守260\n位置：一号位守岸人 二号位锁瞑 三号位心\n实机已跑通，容错很多，复现简单\n",
       "author": "楽山",
@@ -57,12 +59,14 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Hsin_Shorekeeper_Suoming_2.0.0_f99a3dd6.zip",
+      "downloadCount": 0
     },
     {
       "filename": "心鎖守_奉眠_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/%E5%BF%83%E9%8E%96%E5%AE%88_%E5%A5%89%E7%9C%A0_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/%E5%BF%83%E9%8E%96%E5%AE%88_%E5%A5%89%E7%9C%A0_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/1.0.0_a6b83a56.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/1.0.0_a6b83a56.zip",
       "name": "心鎖守",
       "description": "【场景】日常、矩阵、深塔、海墟上半、海墟下半\n【难度】高容错\n\n【说明】\n鳴潮 工具｜心／鎖暝／守岸人\n\n【軸來源】長風ei 11w 輪切軸（LQ），參考楽山代碼，經 AI 修改並實測\n\n【適用場景】【日常】【海墟】【深塔】【矩陣】\n日常、冥歌海墟、深塔、矩陣均已實測可完整跑完\n\n【適配說明】\n- 一號位：不限，程式按角色名切人，編隊順序不限\n- 共鳴鏈：守岸人需 3 鏈（程式按三鏈 R 回 20 協奏計算）；心、鎖暝為作者實測鏈數，更低未測試\n- 共鳴效率：以下為作者實測值，共效有溢出，請依自身練度調整\n\n【作者隊伍配置】\n- 心（主C）\n共鳴鏈：3 鏈\n武器：玉闕玄華 精1\n共鳴模態：同奏（必要）\n共鳴效率：119.2%\n- 鎖暝\n共鳴鏈：0 鏈\n武器：千古 精1\n主聲駭：暗鳥（必要）\n共鳴效率：130.8%\n- 守岸人\n共鳴鏈：3 鏈\n武器：星序協響 精1\n共鳴效率：269.4%\n⚠ 未滿 3 鏈：Hsin.py 的 SK_R_CON_GAIN 改成 0.08，否則 R 演出中會提前切人導致同奏鏈斷掉（作者無 2 鏈可實測）\n\n【基本設定】\n- 使用共鳴解放：開啟（必要）\n\n🔄 輪轉邏輯\n\n守岸人 → 鎖暝 → 心 → 鎖暝 → 心 → 守岸人\n- 守岸人\n啟動軸：E → 2A → 重擊 → R → 協奏滿變奏鎖暝\n循環軸：R 前協奏＋R 回復量足夠時，R 演出中直接切鎖暝；不夠則等演完補協奏\n- 鎖暝（念深）\nR → A → Q（暗鳥）→ 同奏切心\n- 心（應世相）\n聲駭 → 步紅塵 → R 轉相 → 照世相 E → 同奏切鎖暝\n- 鎖暝（旋雷破·同奏）\nA 到妄執滿 → 無捨念 → 按住刻心念 → 協奏滿變奏心\n- 心（照世相）\n統御眾機 → 臨寰宇 → [沒怪中鍵鎖敵 ≤3 秒] → 萬闕垂天 → 重擊 → E → 協奏滿變奏守岸人\n\n💡 每一棒交棒都只認頭像光圈，協奏不滿不切\n任何一棒普通入場，該圈同奏鏈會斷\n💡 守岸人 R 能量未滿時（例如剛進場的首輪啟動軸）最多等數秒，攢不到就不放，不影響後續同奏鏈\n💡 萬闕垂天後補重擊 → E，下一圈心1 少補普攻\n💡 開大前沒怪會中鍵重新鎖敵，時間到照放；等完會再確認 R 位，不會放成借相\n\n🎯 鎖定與收手\n\n- 鎖定丟失自動重鎖\n有血條但沒鎖定、或讀不到怪時，每 0.4 秒按一次中鍵重新鎖定\nBoss 戰不按\n- 沒怪自動收手\n5 秒讀不到怪，或有血條但 4 秒鎖不到，就中斷該圈交回框架，不空揮\n\n⚠ 使用注意\n- 程式不檢查心的形態，大世界連打或換場後，開自動戰鬥前請確認心的 R 位是「轉相」圖示（應世相）\n- 冥歌海墟建議選下半場：開場大招能量是滿的，啟動軸最順\n- 以上僅供參考，請自行測試你的角色能否穩定運行\n",
       "author": "奉眠",
@@ -84,12 +88,14 @@
         "海墟上半",
         "海墟下半"
       ],
-      "difficulty": "高容错"
+      "difficulty": "高容错",
+      "assetName": "1.0.0_a6b83a56.zip",
+      "downloadCount": 0
     },
     {
       "filename": "心锁守轮椅轴日常.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/%E5%BF%83%E9%94%81%E5%AE%88%E8%BD%AE%E6%A4%85%E8%BD%B4%E6%97%A5%E5%B8%B8.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/%E5%BF%83%E9%94%81%E5%AE%88%E8%BD%AE%E6%A4%85%E8%BD%B4%E6%97%A5%E5%B8%B8.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/1.0.1_a9a7ce23.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/1.0.1_a9a7ce23.zip",
       "name": "心锁守轮椅轴日常",
       "description": "【场景】日常、矩阵、深塔、海墟上半、海墟下半\n【难度】高容错\n\n【说明】\n心锁守轮椅轴日常【高容错】\n\n定位：矩阵、深塔、海墟请使用楽山的心锁守轴；本轴以保下限和容错为主，适合刷副本、打聚落。\n\n适用范围：仅保证副本和聚落场景可用。以守岸人为起点推进完整一轮流程，适合刷副本、打聚落，不保证逛街时频繁遭遇少量怪物的零散战斗。\n\n使用方法与适配：\n1. 三个角色均无共鸣链要求，适配零链。\n2. 三个角色均无硬性共鸣效率要求。心已脱下声骸完成实测，无额外共鸣效率要求；锁冥以辅助为主，建议尽量提高共鸣效率，减少站场补能。锁冥效率不足时可能长时间站场，容易暴毙。\n3. 执行一号位为守岸人，启动时先确认守岸人出场。\n4. 心使用同奏模态；锁冥装备暗鸟声骸；守岸人装备无归的谬误声骸。\n\n与楽山心锁守 2.0.0 的区别：\n1. 可以逆序使用锁冥的两次延奏：首次 R 未就绪、协奏已满时先普通延奏心，回锁冥后再补 R 同奏心；R 和协奏同时可用时仍优先 R。\n2. 完整一轮至少成功施放一次锁冥 R；心必须补出终结 R；守岸人必须满协奏才能切人。\n3. 首次切心已是后半形态，就跳过第一次回锁，直接继续后半部分流程。\n\n流程特色：\n- 根据实际能量、技能冷却和角色形态推进，不要求满能量开局，不依赖固定竞速轴或角色间高速合轴。\n- 锁冥 R 与协奏同时可用时优先 R，保留协奏用于后续交接。首次上场 R 未就绪但协奏已满时，可以先普通延奏心，之后回锁冥补 R 同奏心；本轮仍保证至少成功施放一次锁冥 R，不以两次普通延奏替代同奏流程。\n- 针对共鸣效率不足设计补能分支：守岸人可以放弃本次 R，但满协奏才切人；心必须持续攻击补出终结 R。\n- 锁冥刻心念长按期间不插入 R、Q 或处决等其他操作；启动被打断时有恢复和重试处理。\n- 心根据实际形态及重击就绪图像推进，兼容高链首次重击直接就绪；进入后半段形态时继续后半流程。\n- 守岸人满协奏经短暂停顿与复核后 Q 切锁；心终结 R 后补普攻，满协奏再 Q 切守。\n- 处决只认怪物身上的实际 F 提示；单次最多尝试 3 秒，未触发就继续动作，同一提示不反复抢占流程；刻心念长按期间仍禁止处决。\n- 参考楽山心锁守 2.0.0 优化强化 E 保留、后台按键时长、重击被吞后的有限重按和统御识别开销；保留本轴低共鸣效率补能与严格交棒条件。\n- 支持后台运行，关键动作保留结果确认与中断恢复。\n\n实测环境：4K 分辨率、极致画质、所有特效和光追全开。\n已完成实战测试：深塔、残象聚落、凝素领域。\n",
       "author": "nympheon",
@@ -111,7 +117,9 @@
         "海墟上半",
         "海墟下半"
       ],
-      "difficulty": "高容错"
+      "difficulty": "高容错",
+      "assetName": "1.0.1_a9a7ce23.zip",
+      "downloadCount": 0
     }
   ]
 }

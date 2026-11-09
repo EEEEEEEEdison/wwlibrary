@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.1.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.1.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.1.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/25s_1.1.0_893b15e1.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/25s_1.1.0_893b15e1.zip",
       "name": "弗坎嘉 25s",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n【中容错战斗】【矩阵】【深塔】；坎特蕾拉一号位开，开启关闭自动切换治疗位无影响；最低共鸣效率未测，实测共鸣效率：坎特蕾拉133，嘉贝莉娜133。理论上嘉贝莉娜共鸣效率越高越好。4金应该能打过宝箱怪。参考视频：https://www.bilibili.com/video/BV1nAC6BRETp/\n",
       "author": "EEEEEEEEdison",
@@ -32,7 +32,9 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "25s_1.1.0_893b15e1.zip",
+      "downloadCount": 0
     }
   ]
 }

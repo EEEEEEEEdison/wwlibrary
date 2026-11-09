@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "2弗维速刷boss_琉璃_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/2%E5%BC%97%E7%BB%B4%E9%80%9F%E5%88%B7boss_%E7%90%89%E7%92%83_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/2%E5%BC%97%E7%BB%B4%E9%80%9F%E5%88%B7boss_%E7%90%89%E7%92%83_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/2_boss_1.0.0_6b7e7ac6.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/2_boss_1.0.0_6b7e7ac6.zip",
       "name": "2弗维速刷boss",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n1.刚需2弗2维5奇幻，维带无归，白芷带乌龟\n2.无大招不需共鸣效率\n3.谁进场都可以\n4.开启自动切换治疗位，大招不开\n5.弗需提前攒好重击再开始\n6.轴为维打满协奏切弗aaqz，重击直接打死的话一般115左右每小时\n",
       "author": "琉璃",
@@ -32,12 +32,14 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "2_boss_1.0.0_6b7e7ac6.zip",
+      "downloadCount": 0
     },
     {
       "filename": "速刷4C_奉眠_1.0.1.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.1.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.1.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/4C_1.0.1_e59edcd7.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/4C_1.0.1_e59edcd7.zip",
       "name": "速刷4C",
       "description": "【场景】刷4c\n【难度】高容错\n\n【说明】\n速刷 4C\n【隊伍配置】（入門／進階相同）\n前提：弗洛洛需能秒殺 Boss\n出場順序：維里奈起手\n開始前：弗洛洛能量需刷滿（確保能施放強化重擊）\n- 弗洛洛\n共鳴鏈：2 鏈\n武器：精1專武\n- 維里奈\n共鳴鏈：2 鏈\n武器：精5奇幻（精1～4請自行測試）\n套裝：隱世回光\n主聲駭：烏龜（較穩定）；傷害不足時改用無歸的謬誤\n- 白芷（隨意，不死即可）\n動作：預設只放聲駭技能，如需施放其他技能需自行修改程式碼\n套裝：隱世回光\n主聲駭：烏龜（掛 buff 用）\n💡 只帶弗、維兩人也能開刷，白芷是否需要請自行判斷\n【作者弗洛洛面板參考】\n- 暴擊率：99%\n- 暴擊傷害：277%\n- 攻擊力：2500\n- 共鳴技能傷害加成：25.5%\n- 湮滅傷害加成：102%\n- 聲駭技能傷害加成：55%\n⚠ 以上僅供參考，請自行測試你的角色能否穩定運行\n🔰 入門｜直接使用預設掛機\n【基本設定】\n- 戰鬥前後切治療：開啟\n- 使用共鳴解放：關閉\n【效率】\n- 其他週本：約 115 個／小時\n- 達妮婭週本：約 110 個／小時\n（一次給兩個，刷來合成用）\n⚙️ 進階｜修改腳本提升效率\n⚠ 需要一定的動手能力，可詢問 AI 協助修改程式碼\n【修改檔案】\n① FarmEchoTask.py（刷聲駭任務，主要修改）\n② BaseWWTask.py（搜尋聲駭邏輯參考）\n路徑：\nC:\\Users\\<使用者名稱>\\AppData\\Local\\应用\\data\\apps\\应用\\working\\src\\task\\\n【修改項目】\n1. 新增 Boss 選項\n2. 開場閃避\n3. 閃避起算點提前\n4. 跳過結束等待\n→ 撿完聲駭後不再等 5 秒確認戰鬥是否重啟，直接重新挑戰\n→ 每輪省約 5 秒\n5. 搜尋聲駭改為直走\n→ 沿用 BaseWWTask.py 原邏輯，改成直走，減少後退、前進浪費的時間\n【效率】\n- 達妮婭週本：約 137 個／小時\n撿取成功率 99%｜實測穩定運行 24 小時\n- 其他週本：待測試\n1.0.0 初版\n1.0.1 優化維里奈穩定性+白芷技能是否施放(改代碼)\n",
       "author": "奉眠",
@@ -55,7 +57,9 @@
       "scenes": [
         "刷4c"
       ],
-      "difficulty": "高容错"
+      "difficulty": "高容错",
+      "assetName": "4C_1.0.1_e59edcd7.zip",
+      "downloadCount": 0
     }
   ]
 }

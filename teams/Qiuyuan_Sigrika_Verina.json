@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Qiuyuan_Verina_Sigrika_尺素_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Qiuyuan_Verina_Sigrika_%E5%B0%BA%E7%B4%A0_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Qiuyuan_Verina_Sigrika_%E5%B0%BA%E7%B4%A0_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Qiuyuan_Verina_Sigrika_1.0.0_4fea180c.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Qiuyuan_Verina_Sigrika_1.0.0_4fea180c.zip",
       "name": "Qiuyuan_Verina_Sigrika",
       "description": "【场景】日常、矩阵、深塔、海墟上半、海墟下半\n【难度】高容错\n\n【说明】\n1.全角色0链就可以，维里奈有2链更好，没有2链也是可以循环的\n2.仇远共鸣效率最低125以上，西格莉卡140以上，维里奈至少180以上\n3.角色执行一号位维里奈\n4.需要开启自动切换治疗位\n5.维里奈最好带精1以上奇幻变奏，不然可能轴中存在协奏能量打不满的情况\n6.【低容错队伍】这个队伍能打海墟（下半）和深塔，日常也可以使用，不过没有大招启动打的会慢一点，最适合打矩阵的宝箱怪，被肘多下的话可能会导致循环跟不上，而且西格莉卡的输出性能对空较差，所以矩阵需要人盯着，约等于半自动，理想情况这是打桩五日灵五R轴\n",
       "author": "尺素",
@@ -34,7 +34,9 @@
         "海墟上半",
         "海墟下半"
       ],
-      "difficulty": "高容错"
+      "difficulty": "高容错",
+      "assetName": "Qiuyuan_Verina_Sigrika_1.0.0_4fea180c.zip",
+      "downloadCount": 0
     }
   ]
 }

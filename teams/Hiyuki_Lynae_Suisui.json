@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Hiyuki_Lynae_Suisui_Kexeyna_1.0.2.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hiyuki_Lynae_Suisui_Kexeyna_1.0.2.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hiyuki_Lynae_Suisui_Kexeyna_1.0.2.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lynae_Suisui_1.0.2_80a4e9be.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lynae_Suisui_1.0.2_80a4e9be.zip",
       "name": "Hiyuki_Lynae_Suisui",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n绯琳穗轮切轴\n\n删除琳奈延奏放E、绯雪延奏放E\n绯雪：122.4% 0+1\n穗穗：297.8% 0+1\n琳奈：125.2% 0+相位涟漪\n\n仅在这两种环境测试过，其余环境没试过，充能大于以下即可，更低值未测试过\n穗穗：0+1，共鸣效率 297.8%\n琳奈：0+0《相位涟漪》，共鸣效率 125.2%\n绯雪：0+1，共鸣效率 122.4%\n",
       "author": "Kexeyna",
@@ -32,7 +32,9 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Hiyuki_Lynae_Suisui_1.0.2_80a4e9be.zip",
+      "downloadCount": 0
     }
   ]
 }

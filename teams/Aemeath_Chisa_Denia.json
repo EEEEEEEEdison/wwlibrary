@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Aemeath_Chisa_Denia_楽山&Rosa-panda_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Aemeath_Chisa_Denia_%E6%A5%BD%E5%B1%B1%26Rosa-panda_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Aemeath_Chisa_Denia_%E6%A5%BD%E5%B1%B1%26Rosa-panda_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Aemeath_Chisa_Denia_1.0.0_552dfd89.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Aemeath_Chisa_Denia_1.0.0_552dfd89.zip",
       "name": "Aemeath_Chisa_Denia",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n非椰果只打4R保下限脚本（基于楽山原版爱达千17s启动微调）\n配置条件：\n爱弥斯 6链，千咲 0链，达妮娅 0链（更低未测试，理论上0链可用，轴并不依赖小爱一链）\n效率面板：爱弥斯 120%，千咲 120%，达妮娅 130%（更低不推荐，循环可能会卡住）\n位置：一号位爱弥斯，二号位达妮娅，三号位千咲\n轴体说明：本版本主要解决楽山原版爱达千17s脚本在部分机型启动轴千咲协奏打不满导致延奏丢失的问题，定位为非椰果向保下限脚本，优先保证流程完整跑通。实测启动轴一般在23秒以内完成（受机型和怪物站位影响会有浮动）。\n本机实测复现成功率过半，流程完整度较高\n，出分容易。建议确保网络稳定，关闭游戏内插帧，保持稳定帧率。\n",
       "author": "楽山&Rosa-panda",
@@ -32,12 +32,14 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Aemeath_Chisa_Denia_1.0.0_552dfd89.zip",
+      "downloadCount": 0
     },
     {
       "filename": "Aemeath_Chisa_Denia_楽山_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Aemeath_Chisa_Denia_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Aemeath_Chisa_Denia_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Aemeath_Chisa_Denia_1.0.0_cff9805d.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Aemeath_Chisa_Denia_1.0.0_cff9805d.zip",
       "name": "Aemeath_Chisa_Denia",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n爱达千17S启动+轮椅循环\n样本：61爱 01千 01达\n共效：爱125 千139 达135（仅为参考）\n位置：一号位千 二号位达 三号位爱\n实机已跑通 复现难度中等 主要问题为启动轴受个人环境不同，容易失败。最好确保网络无波动 关闭游戏内插帧 能够稳定60帧\n需要说明，OK的轴并非完美，只要流程跑的通，不损失过多伤害即可视为接受，如果在意流程完美程度和伤害，请尝试手操。\nTips：如果发现启动轴最后爱弥斯变奏入场强化E没有亮起就重开\n如果发现启动轴爱弥斯仅在达尼娅R2后变奏一次，但强化E亮起 可以继续 但是会损失后续伤害\n如果发现启动轴最后爱弥斯两次变奏入场成功，且强化E亮起，但是在R1释放前灭了，也视为失败，需要重开\n成功启动的标志为启动轴爱弥斯两次变奏入场且R1后能够接上强化E 此为完美复现\n如果失败，可以开关一下自动战斗的开关，可以更快的进行下次尝试\n",
       "author": "楽山",
@@ -57,12 +59,14 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Aemeath_Chisa_Denia_1.0.0_cff9805d.zip",
+      "downloadCount": 0
     },
     {
       "filename": "Aemeath_Chisa_Denia_楽山_1.0.1.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Aemeath_Chisa_Denia_%E6%A5%BD%E5%B1%B1_1.0.1.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Aemeath_Chisa_Denia_%E6%A5%BD%E5%B1%B1_1.0.1.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Aemeath_Chisa_Denia_1.0.1_be48a995.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Aemeath_Chisa_Denia_1.0.1_be48a995.zip",
       "name": "Aemeath_Chisa_Denia",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n爱达千三光翼5R2椰果轴\n样本：61爱 01达 01千\n爱125 千139 达135（仅为参考）\n位置：一号位千 二号位达 三号位爱\n实机已跑通（启动+循环，由于转火未能实现最后一个R2），复现难度极高，需要宝箱怪启动，网络无波动，在关闭游戏内插帧的情况下，需要稳定60帧及以上\nTips：如果发现启动轴最后爱弥斯变奏入场强化E没有亮起就重开\n如果发现启动轴爱弥斯仅在达尼娅R2后变奏一次，但强化E亮起 需要重开\n如果发现启动轴最后爱弥斯两次变奏入场成功，且强化E亮起，但是在R1释放前灭了，也视为失败，需要重开\n成功启动的标志为启动轴爱弥斯两次变奏入场且R1后能够接上强化E 此为完美复现\n如果失败，可以开关一下自动战斗的开关，可以更快的进行下次尝试\n",
       "author": "楽山",
@@ -82,7 +86,9 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Aemeath_Chisa_Denia_1.0.1_be48a995.zip",
+      "downloadCount": 0
     }
   ]
 }

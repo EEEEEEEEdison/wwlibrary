@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Cantarella_Buling_Phrolova_楽山_1.1.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Cantarella_Buling_Phrolova_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Cantarella_Buling_Phrolova_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Cantarella_Buling_Phrolova_1.1.0_995b028a.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Cantarella_Buling_Phrolova_1.1.0_995b028a.zip",
       "name": "Cantarella_Buling_Phrolova",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n弗坎卜轮椅轴\n样本：21弗01坎60卜灵（核熔星盘/或其他带协奏的武器）\n共效：弗100坎150卜180\n位置：一号位弗洛洛 二号位坎 三号位卜灵\nv1.1.0 优化：\n- 坎特蕾拉放完 Q 协奏没满，先补满再变奏弗洛洛\n- 启动轴弗洛洛开重击改为白+黄都亮，不再被亮地面误判\n- 卜灵两段重击改为读卦象栏：卦象被吃掉就松手，缺阴/阳自动补卦象；读不到时退回外圈颜色判断\n- 卜灵 A4 的震一出现就停 A；补协奏差一点时只点 A，不再多按重击\n- 开关一次自动战斗即从启动轴重新开始\n- 16:9，2K / 1080p 已验，默认键位\n",
       "author": "楽山",
@@ -32,7 +32,9 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Cantarella_Buling_Phrolova_1.1.0_995b028a.zip",
+      "downloadCount": 0
     }
   ]
 }

@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Hiyuki_Lucilla_Verina_a38999_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hiyuki_Lucilla_Verina_a38999_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hiyuki_Lucilla_Verina_a38999_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Verina_1.0.0_c800584f.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Verina_1.0.0_c800584f.zip",
       "name": "Hiyuki_Lucilla_Verina",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n绯洛维25s4居合标准轴，开局需要切到维里奈\n\n绯雪共鸣效率需求120+，最好125+，无命座需求。\n洛瑟菈共鸣效率100，无命座需求。\n维里奈共鸣效率240+，需要有高精奇幻变奏或者2链。\n",
       "author": "a38999",
@@ -32,7 +32,9 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Hiyuki_Lucilla_Verina_1.0.0_c800584f.zip",
+      "downloadCount": 0
     }
   ]
 }

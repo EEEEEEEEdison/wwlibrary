@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Phoebe_Rover_Zani_EEEEEEEEdison_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Phoebe_Rover_Zani_EEEEEEEEdison_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Phoebe_Rover_Zani_EEEEEEEEdison_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Phoebe_Rover_Zani_1.0.0_8314f152.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Phoebe_Rover_Zani_1.0.0_8314f152.zip",
       "name": "Phoebe_Rover_Zani",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n菲比一号位开，赞菲光3终夜 建议用于暴打宝箱怪 赞妮0链最低效率不明，测试效率130%，菲比0链最低效率不明，测试效率128%，光主最低效率不明，测试效率149%\n",
       "author": "EEEEEEEdison",
@@ -32,12 +32,14 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Phoebe_Rover_Zani_1.0.0_8314f152.zip",
+      "downloadCount": 0
     },
     {
       "filename": "Phoebe_Rover_Zani_芝士奶酪_1.1.1.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Phoebe_Rover_Zani_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.1.1.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Phoebe_Rover_Zani_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.1.1.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Phoebe_Rover_Zani_-_4_3_1.1.1_01f53e02.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Phoebe_Rover_Zani_-_4_3_1.1.1_01f53e02.zip",
       "name": "Phoebe_Rover_Zani - 4终夜3终夜循环",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】低容错\n\n【说明】\n【使用说明】\n\n1. 角色共鸣链最低适配：赞01菲00即可，光主无要求。\n当前测试配置：01赞妮、00菲比（1阶奇幻）、65光主（5阶千古，非刚需）。\n\n2. 角色共鸣效率最低适配：待样本测试。\n当前测试共鸣效率：\n- 赞妮117.6%（衍射套首位荣光）\n- 菲比194.2%（衍射套首位无要求，是脱手释放即可）\n- 光主125.6%（奶套首位无归）\n\n目前未完整测试最低共鸣效率，按照攻略赞菲120%以上会舒服一些，基本大招可以循环。\n\n3. 一号位 / 首发角色：\n菲比。\n\n4. 自动切换治疗位：\n关闭 工具中的“开局切奶妈/自动切换治疗位”功能。\n\n5. 其他必要备注：\n尽量不要在赞妮强化E、终夜、R2，以及菲比告解和R释放期间手动闪避或插入技能。\n\n6. 其他不必要备注：\n使用场景：【低容错战斗】，适用于深塔、矩阵。\n\n轴特色：\n- 本轴流程为首轮4终夜，后续3终夜循环。不过由于没有怪物动作识别，所以轴的完美程度一定上还取决于怪，具体能打多少R2要视具体情况而定。在较好的输出环境下可以高容错打出4R2。在被怪肘击后依然可以从当前位置复位，确保流程可以进行（只是可能会掉一些buff），但是如果单次肘击内超时的话就只能重开了。\n- 个人建议还是自己看时机释放闪避，收益比较高，能减少重开次数。\n\n以下为本轴所用流程文字详解：\n- P1为启动轴，重点压缩启动时间并争取赞妮4终夜；菲比告解 → R → E1/Q → 光主 E/Q/R → 赞妮 EA → 菲比 3A + Z1 → 赞妮预充普通E/A/ → 强化E → 菲比补协奏并保留一发Z → 赞妮强化E(此次为强化E释放保护，如果前面被怪打断强化E释放，这里检测到强化E可用会继续释放) + R1 + N1 → 光主机会E → 菲比Z/E1 → 赞妮N2 → 光主优先R → 赞妮N3 → 菲比告解 + R → 赞妮N4 + R2 + EA。\n- 注意：若因闪避或受击导致第四个终夜尾刀来不及落地，则优先保证R2，因此第四终夜完整尾刀与R2在极端情况下可能二选一，本轴选择保R2。\n- P2为循环轴，时间相对宽裕，会根据菲比告解与R的剩余CD，动态安排光主AZ、E等动作填轴：菲比Z1 → 赞妮预充E → 赞妮强化E → 菲比Z2并补协奏 → 赞妮强化E(此次为强化E释放保护，如果前面被怪打断强化E释放，这里检测到强化E可用会继续释放) + R1 + N1 → 光主机会技能（有啥放啥，没有就走） → 赞妮N2 → 菲比检查告解及R冷却 → 光主动态AZ/E填轴（按需）→ 菲比告解 + R → 赞妮N3 + R2 + EA → 返回P2循环。\n\n不同怪物机制、高难环境、角色配置、电脑性能及游戏运行环境都可能影响循环速度和稳定性。\n\n7. 版本号规范：\n- 当前版本：1.1.1。\n\n欢迎使用并提出优化意见。\n联系方式：3群，芝士奶酪 QQ 1551547950\n",
       "author": "芝士奶酪",
@@ -57,7 +59,9 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "低容错"
+      "difficulty": "低容错",
+      "assetName": "Phoebe_Rover_Zani_-_4_3_1.1.1_01f53e02.zip",
+      "downloadCount": 0
     }
   ]
 }

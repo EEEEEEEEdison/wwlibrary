@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Galbrena_Lupa_Mornye_楽山_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Galbrena_Lupa_Mornye_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Galbrena_Lupa_Mornye_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Galbrena_Lupa_Mornye_1.0.0_df2e90cf.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Galbrena_Lupa_Mornye_1.0.0_df2e90cf.zip",
       "name": "Galbrena_Lupa_Mornye",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n嘉露莫轮椅轴\n样本：01嘉贝01露帕11莫宁\n共效：嘉贝120 露帕125 莫宁260\n位置：一号位嘉贝 二号位露帕 三号位莫宁\n实机已跑通 复现难度低 增加了诸多嘉贝与露帕的流程保底\n建议在关闭游戏内插帧开关与开启120帧 确保游戏帧率至少大于60（可以开启N卡插帧） 关闭显示器的HDR 分辨率最好为2K/1K\n",
       "author": "楽山",
@@ -32,7 +32,9 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Galbrena_Lupa_Mornye_1.0.0_df2e90cf.zip",
+      "downloadCount": 0
     }
   ]
 }

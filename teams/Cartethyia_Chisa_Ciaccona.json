@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Cartethyia_Chisa_Ciaccona_1.0.0_f1486599.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Cartethyia_Chisa_Ciaccona_1.0.0_f1486599.zip",
       "name": "Cartethyia_Chisa_Ciaccona",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】低容错\n\n【说明】\n卡夏千5r8下落轴\n样本：61卡00夏（2阶华彩）21千\n样本共效：卡提125 夏空171 千咲134\n位置：必须1号位卡提，2号位夏空，3号位千咲\n\n使用说明：\n1.必须卡提起手，可以直接重开，卡提和夏空声骸为大卡剑\n2.【低容错战斗】【终焉矩阵】适用，针对第5轮做了特化\n3.卡提位有一点容错，其他位置无容错。\n\n测试：已经过实战测试，矩阵第一轮第一个怪起手，经过4次转火到宝箱怪，可以打出5r2，复现难度不是特别高。深塔中塔1234用于测试，可以完成战斗\n",
       "author": "rain-z",
@@ -32,12 +32,14 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "低容错"
+      "difficulty": "低容错",
+      "assetName": "Cartethyia_Chisa_Ciaccona_1.0.0_f1486599.zip",
+      "downloadCount": 0
     },
     {
       "filename": "Cartethyia_Chisa_Ciaccona_宇哥哥_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Cartethyia_Chisa_Ciaccona_%E5%AE%87%E5%93%A5%E5%93%A5_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Cartethyia_Chisa_Ciaccona_%E5%AE%87%E5%93%A5%E5%93%A5_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Cartethyia_Chisa_Ciaccona_1.0.0_0a369ace.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Cartethyia_Chisa_Ciaccona_1.0.0_0a369ace.zip",
       "name": "Cartethyia_Chisa_Ciaccona",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】低容错\n\n【说明】\n1.角色共鸣链本人21卡01夏01千，因为是双下落轴对2链以下的卡收益不大，辅助无要求。\n2.角色共鸣效率最低适配情况不清除，测试账号卡提109，夏空145，千咲144\n3.角色执行一号位卡提希娅\n4.是否开启自动切换治疗位：否\n5.其他必要备注：矩阵专用，只用来凹分。修改了原框架是否处于战斗状态的的逻辑判断，因为矩阵战斗中可能轴打到一半怪物死了，刷新又卡了3-4秒，所以实际不应退出战斗状态却被接管了，打出和轴不一样的操作。该轴增加了较多容错，未打出的操作会有补偿逻辑，切人会多次重试等。如果多次触发补偿操作可能无法完整打出4R2。\n6.其他不必要备注：【低容错战斗】【终焉矩阵】该轴是卡夏千终焉矩阵专用特化，其他场景未测试。\n7.版本号:1.0.0\n",
       "author": "宇哥哥",
@@ -57,12 +59,14 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "低容错"
+      "difficulty": "低容错",
+      "assetName": "Cartethyia_Chisa_Ciaccona_1.0.0_0a369ace.zip",
+      "downloadCount": 0
     },
     {
       "filename": "Cartethyia_Chisa_Ciaccona_楽山_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Cartethyia_Chisa_Ciaccona_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Cartethyia_Chisa_Ciaccona_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Cartethyia_Chisa_Ciaccona_1.0.0_76919e88.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Cartethyia_Chisa_Ciaccona_1.0.0_76919e88.zip",
       "name": "Cartethyia_Chisa_Ciaccona",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n卡夏千4R8下落轴\n样本：31卡提00夏空00千咲\n共效：卡提130 夏空140 千咲150（奶套）\n位置：一号位卡提 二号位夏空 三号位千咲\n实机已跑通，稳定度尚可，已经加了部分保底，流程中间转火可能会乱轴 在卡提R2前后问题不大。\n",
       "author": "楽山",
@@ -82,7 +86,9 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Cartethyia_Chisa_Ciaccona_1.0.0_76919e88.zip",
+      "downloadCount": 0
     }
   ]
 }

@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Iuno_JingRan_Shorekeeper_楽山_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Iuno_JingRan_Shorekeeper_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Iuno_JingRan_Shorekeeper_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Iuno_JingRan_Shorekeeper_1.0.0_728814ad.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Iuno_JingRan_Shorekeeper_1.0.0_728814ad.zip",
       "name": "Iuno_JingRan_Shorekeeper",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n景月守轮椅轴\n样本：01景01月（首位声骸海之女）11守\n共效：景燃130 月130 守260\n位置：一号位守岸人 二号位月 三号位景燃\n实机已跑通，复现难度不高，如果一切顺利应该能5R 不过实战基本都是到不了5R的 以保底稳定为主\n注意 优诺的效率最好不要低于130 更高更好 太低了可能会导致循环轴里R能量不足 虽然不会特别影响流程\n",
       "author": "楽山",
@@ -32,7 +32,9 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Iuno_JingRan_Shorekeeper_1.0.0_728814ad.zip",
+      "downloadCount": 0
     }
   ]
 }

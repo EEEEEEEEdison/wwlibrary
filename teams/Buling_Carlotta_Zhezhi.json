@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Carlotta_Buling_Zhezhi_楽山_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Carlotta_Buling_Zhezhi_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Carlotta_Buling_Zhezhi_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Carlotta_Buling_Zhezhi_1.0.0_82251389.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Carlotta_Buling_Zhezhi_1.0.0_82251389.zip",
       "name": "Carlotta_Buling_Zhezhi",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n柯折卜轮椅轴\n样本：01柯00折00卜（卜灵为模板角色）\n共效：柯120折132卜200（卜灵为模板角色）\n位置：一号位柯莱塔 二号位折枝 三号位卜灵\n实机已跑通 复现难度低 本身该队伍就比较轮椅 但是在面对一些粪怪时 卜灵和折枝还是容易被肘 已做出相应的保底措施 也可以自己加入闪避 柯莱塔大招期间可以自主调整走位和闪避 不影响流程\n",
       "author": "楽山",
@@ -32,7 +32,9 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Carlotta_Buling_Zhezhi_1.0.0_82251389.zip",
+      "downloadCount": 0
     }
   ]
 }

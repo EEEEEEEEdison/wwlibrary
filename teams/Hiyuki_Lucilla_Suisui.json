@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Hiyuki_Lucilla_Suisui_楽山_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.0.0_fa0b513b.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.0.0_fa0b513b.zip",
       "name": "Hiyuki_Lucilla_Suisui",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n绯洛穗4R22居（需2链绯雪）\n样本：61绯雪 00洛瑟拉 00穗穗（精5奇幻变奏/也许234阶也可以没测试）\n共效：绯雪120 洛瑟拉100 穗穗260\n位置：一号位穗穗 二号位洛瑟拉 三号位绯雪\n场景：【深塔/矩阵】\n实机已跑通，由于启动轮容错较低 建议宝箱启动\n后续如果转火过多循环轴可能只能打出4居\n对于电脑配置要求稍高，需要1K/2K分辨率下 保证原生帧数尽可能的高，网络稳定\n",
       "author": "楽山",
@@ -32,12 +32,14 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Hiyuki_Lucilla_Suisui_1.0.0_fa0b513b.zip",
+      "downloadCount": 0
     },
     {
       "filename": "Hiyuki_Lucilla_Suisui_楽山_1.0.1.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.0.1.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.0.1.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.0.1_db9e4ea4.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.0.1_db9e4ea4.zip",
       "name": "Hiyuki_Lucilla_Suisui",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n绯洛穗启动5居循环4居轴\n样本：61绯雪00洛00穗\n共效：绯雪127洛瑟拉161穗穗270\n位置：一号位穗穗 二号位洛瑟拉 三号位绯雪\n实机已跑通，本次为上个版本的优化，优化了绯雪在最后一段居合当中释放不流畅 以及强化重击和R2之间会发呆的问题\n",
       "author": "楽山",
@@ -57,12 +59,14 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Hiyuki_Lucilla_Suisui_1.0.1_db9e4ea4.zip",
+      "downloadCount": 0
     },
     {
       "filename": "Hiyuki_Lucilla_Suisui_楽山_1.1.1.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.1.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.1.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.1.1_bd9ac058.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.1.1_bd9ac058.zip",
       "name": "Hiyuki_Lucilla_Suisui",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n绯洛穗启动3居循环4居轴\n样本：61绯雪00洛00穗\n共效：绯雪127洛瑟拉161穗穗270\n位置：一号位穗穗 二号位洛瑟拉 三号位绯雪\n实机已跑通。v1.1.0 优化：\n1. 绯雪启动轴缩短为 A3→处决(有提示时)/闪避→EE→三居合→重击→R2，开场容错更高\n2. 穗穗启动轴强化E被打断会补按，确认放出才往下走\n3. 穗穗循环轴：回路满了R没亮会继续打到亮；没攒满三格时改普攻；放R前协奏不够先补\n4. 绯雪R2打死怪后先等下一波再切穗穗，不再愣住\n5. 洛瑟拉长按E按录屏校准到完美焦距(0.95s)，对焦期间连点R，回路一满马上开R\n6. 洛瑟拉变奏入场更早按E；变身结束协奏满就切绯雪，不再多A一下\nv1.1.1 优化：\n1. 洛瑟拉对焦成功后等追光结算完(约0.9s)再开R，不再打断追光少拿协奏，保证绯雪能变奏入场\n2. 洛瑟拉判断R是否放出更严格，被特效挡住画面不会误判成已放出而停按R\n3. 洛瑟拉回场时如果还在变身(追忆)状态，会自动长按攻击把照片打完退出，再正常交棒\n4. 修复R刚好在超时前放出时不打变身段、带着变身状态下场的问题\n",
       "author": "楽山",
@@ -82,12 +86,14 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Hiyuki_Lucilla_Suisui_1.1.1_bd9ac058.zip",
+      "downloadCount": 0
     },
     {
       "filename": "Hiyuki_Lucilla_Suisui_进入光明2绯0洛3穗_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hiyuki_Lucilla_Suisui_%E8%BF%9B%E5%85%A5%E5%85%89%E6%98%8E2%E7%BB%AF0%E6%B4%9B3%E7%A9%97_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hiyuki_Lucilla_Suisui_%E8%BF%9B%E5%85%A5%E5%85%89%E6%98%8E2%E7%BB%AF0%E6%B4%9B3%E7%A9%97_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.0.0_53e3efa7.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.0.0_53e3efa7.zip",
       "name": "Hiyuki_Lucilla_Suisui",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n4R首4居循环3居合稳定轮椅轴，2链绯雪130，3链穗穗260，0链洛\n",
       "author": "进入光明",
@@ -107,12 +113,14 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Hiyuki_Lucilla_Suisui_1.0.0_53e3efa7.zip",
+      "downloadCount": 0
     },
     {
       "filename": "Hiyuki_Lucilla_Suisui_进入光明2绯2洛3穗_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hiyuki_Lucilla_Suisui_%E8%BF%9B%E5%85%A5%E5%85%89%E6%98%8E2%E7%BB%AF2%E6%B4%9B3%E7%A9%97_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hiyuki_Lucilla_Suisui_%E8%BF%9B%E5%85%A5%E5%85%89%E6%98%8E2%E7%BB%AF2%E6%B4%9B3%E7%A9%97_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.0.0_ca731642.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.0.0_ca731642.zip",
       "name": "Hiyuki_Lucilla_Suisui",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n4R首4居循环3居合稳定轮椅轴，2链绯雪130，3链穗穗260，2链洛\n",
       "author": "进入光明",
@@ -132,7 +140,9 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Hiyuki_Lucilla_Suisui_1.0.0_ca731642.zip",
+      "downloadCount": 0
     }
   ]
 }

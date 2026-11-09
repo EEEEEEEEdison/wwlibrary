@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Chixia_Hiyuki_Youhu_楽山_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Chixia_Hiyuki_Youhu_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Chixia_Hiyuki_Youhu_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Chixia_Hiyuki_Youhu_1.0.0_17ae86bc.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Chixia_Hiyuki_Youhu_1.0.0_17ae86bc.zip",
       "name": "Chixia_Hiyuki_Youhu",
       "description": "【场景】刷4c\n【难度】高容错\n\n【说明】\n4/6链绯雪单人刷4C队\n一号位绯雪 二号位釉瑚 三号位赤霞\n大世界boss最好手动跑过去 再开始刷\n刷的设置里关闭使用解放共鸣\n",
       "author": "楽山",
@@ -30,7 +30,9 @@
       "scenes": [
         "刷4c"
       ],
-      "difficulty": "高容错"
+      "difficulty": "高容错",
+      "assetName": "Chixia_Hiyuki_Youhu_1.0.0_17ae86bc.zip",
+      "downloadCount": 0
     }
   ]
 }

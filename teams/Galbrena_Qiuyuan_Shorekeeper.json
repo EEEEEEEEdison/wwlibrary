@@ -11,8 +11,8 @@
   "codes": [
     {
       "filename": "Galbrena_Qiuyuan_Shorekeeper_楽山_1.0.0.zip",
-      "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Galbrena_Qiuyuan_Shorekeeper_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Galbrena_Qiuyuan_Shorekeeper_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Galbrena_Qiuyuan_Shorekeeper_1.0.0_0868cd65.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Galbrena_Qiuyuan_Shorekeeper_1.0.0_0868cd65.zip",
       "name": "Galbrena_Qiuyuan_Shorekeeper",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n嘉仇守轮椅轴\n样本：01嘉贝01仇远11守\n共效：嘉贝130仇远135（轻云套）守270（共效仅供参考）\n位置：一号位嘉贝 二号位仇远 三号位守岸人\n实机已跑通 复现难度视BOSS而定 队伍容易被肘 选择开局boss时请多加斟酌\n",
       "author": "楽山",
@@ -32,7 +32,9 @@
         "深塔",
         "海墟下半"
       ],
-      "difficulty": "椰果"
+      "difficulty": "椰果",
+      "assetName": "Galbrena_Qiuyuan_Shorekeeper_1.0.0_0868cd65.zip",
+      "downloadCount": 0
     }
   ]
 }
