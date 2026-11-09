@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Aemeath_Augusta_Baizhi_11_1.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Aemeath_Augusta_Baizhi_11_1.0.0.zip",
       "name": "Aemeath_Augusta_Baizhi",
-      "description": "【场景】日常\n【难度】高容错\n\n【说明】\n作者未填写详细说明。\n",
+      "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n作者未填写详细说明。\n",
       "author": "11",
       "version": "1.0.0",
       "team": "Aemeath, Augusta, Baizhi",
@@ -23,14 +23,16 @@
         "Augusta",
         "Baizhi"
       ],
-      "size": 3162,
-      "sizeFormatted": "3.09 KB",
+      "size": 3193,
+      "sizeFormatted": "3.12 KB",
       "timestamp": 1787026177,
       "modifiedAt": "2026-08-18T04:09:37.000Z",
       "scenes": [
-        "日常"
+        "矩阵",
+        "深塔",
+        "海墟下半"
       ],
-      "difficulty": "高容错"
+      "difficulty": "椰果"
     }
   ]
 }

@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Changli_Jinhsi_Verina_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Changli_Jinhsi_Verina_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
       "name": "Changli_Jinhsi_Verina",
-      "description": "【场景】日常\n【难度】低容错\n\n【说明】\n龙凤维轮椅轴\n样本：01今汐01长离60维（精5奇幻 仅供参考）\n共效：今汐120 长离120 维里奈 260\n位置：一号位长离 二号位今汐 三号位维里奈\n实机已跑通，增加了部分保底 流程并不十分稳定 有链度可以勉强混个5000 或者打打宝箱\n",
+      "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n龙凤维轮椅轴\n样本：01今汐01长离60维（精5奇幻 仅供参考）\n共效：今汐120 长离120 维里奈 260\n位置：一号位长离 二号位今汐 三号位维里奈\n实机已跑通，增加了部分保底 流程并不十分稳定 有链度可以勉强混个5000 或者打打宝箱\n",
       "author": "楽山",
       "version": "1.0.0",
       "team": "Changli, Jinhsi, Verina",
@@ -23,14 +23,16 @@
         "Jinhsi",
         "Verina"
       ],
-      "size": 36513,
-      "sizeFormatted": "35.66 KB",
+      "size": 36541,
+      "sizeFormatted": "35.68 KB",
       "timestamp": 1789731847,
       "modifiedAt": "2026-09-18T11:44:07.000Z",
       "scenes": [
-        "日常"
+        "矩阵",
+        "深塔",
+        "海墟下半"
       ],
-      "difficulty": "低容错"
+      "difficulty": "椰果"
     }
   ]
 }

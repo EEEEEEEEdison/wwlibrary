@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Hsin_Jinhsi_Shorekeeper_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Hsin_Jinhsi_Shorekeeper_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
       "name": "Hsin_Jinhsi_Shorekeeper",
-      "description": "【场景】日常\n【难度】高容错\n\n【说明】\n心汐守轮椅轴\n样本：61心01汐21守\n共效：心128 汐122 守280\n位置：一号位守 二号位汐 三号位心\n实机已跑通 复现难度不高 加了很多的保底 但是由于今汐会卡CD可能会导致流程拉长最后没有4R 需要多次尝试\n10/7 优化了部分流程\n",
+      "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n心汐守轮椅轴\n样本：61心01汐21守\n共效：心128 汐122 守280\n位置：一号位守 二号位汐 三号位心\n实机已跑通 复现难度不高 加了很多的保底 但是由于今汐会卡CD可能会导致流程拉长最后没有4R 需要多次尝试\n10/7 优化了部分流程\n",
       "author": "楽山",
       "version": "1.1.0",
       "team": "Hsin, Jinhsi, Shorekeeper",
@@ -23,14 +23,16 @@
         "Jinhsi",
         "Shorekeeper"
       ],
-      "size": 48271,
-      "sizeFormatted": "47.14 KB",
+      "size": 48296,
+      "sizeFormatted": "47.16 KB",
       "timestamp": 1791428798,
       "modifiedAt": "2026-10-08T03:06:38.000Z",
       "scenes": [
-        "日常"
+        "矩阵",
+        "深塔",
+        "海墟下半"
       ],
-      "difficulty": "高容错"
+      "difficulty": "椰果"
     }
   ]
 }

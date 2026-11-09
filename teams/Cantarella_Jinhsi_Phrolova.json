@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Cantarella_Jinhsi_Phrolova_EEEEEEEEdison_1.1.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Cantarella_Jinhsi_Phrolova_EEEEEEEEdison_1.1.0.zip",
       "name": "Cantarella_Jinhsi_Phrolova",
-      "description": "【场景】矩阵\n【难度】低容错\n\n【说明】\n【低容错战斗】适合高练度今汐，矩阵能打5r9龙喷。参考视频：https://www.bilibili.com/video/BV1Rq8Rz6EB5/?t=144；共鸣效率：该打法共鸣效率越高越舒服，实测共鸣效率今汐142.8，坎特蕾拉高天套172.4，今汐主要观察是否每轮都能按时开大，坎特蕾拉主要看第一个大招在cd前能量够不够；测试共鸣链：均0链；开局切治疗开关不影响，一号位坎特蕾拉。\n",
+      "description": "【场景】矩阵、深塔、海墟下半\n【难度】低容错\n\n【说明】\n【低容错战斗】适合高练度今汐，矩阵能打5r9龙喷。参考视频：https://www.bilibili.com/video/BV1Rq8Rz6EB5/?t=144；共鸣效率：该打法共鸣效率越高越舒服，实测共鸣效率今汐142.8，坎特蕾拉高天套172.4，今汐主要观察是否每轮都能按时开大，坎特蕾拉主要看第一个大招在cd前能量够不够；测试共鸣链：均0链；开局切治疗开关不影响，一号位坎特蕾拉。\n",
       "author": "EEEEEEEEdison",
       "version": "1.1.0",
       "team": "Cantarella, Jinhsi, Phrolova",
@@ -23,12 +23,14 @@
         "Jinhsi",
         "Phrolova"
       ],
-      "size": 25357,
-      "sizeFormatted": "24.76 KB",
+      "size": 25384,
+      "sizeFormatted": "24.79 KB",
       "timestamp": 1793800348,
       "modifiedAt": "2026-11-04T13:52:28.000Z",
       "scenes": [
-        "矩阵"
+        "矩阵",
+        "深塔",
+        "海墟下半"
       ],
       "difficulty": "低容错"
     }

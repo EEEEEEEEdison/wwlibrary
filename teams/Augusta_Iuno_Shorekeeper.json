@@ -14,7 +14,7 @@
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Augusta_Iuno_Shorekeeper_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Augusta_Iuno_Shorekeeper_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
       "name": "Augusta_Iuno_Shorekeeper",
-      "description": "【场景】日常\n【难度】高容错\n\n【说明】\n日月守2旋1升轮椅轴\n样本：21日01月11守\n共效：日125月128守275（仅供参考 月最好135左右）\n位置：一号位守 二号位月 三号位日\n实机已跑通 复现难度视boss而定 宝箱开很稳定 但是遇见粪怪 基本上只能打3R 角色机制导致自动战斗无法稳定实现4R\nTips：对于奥古斯塔的流程增加了保底机制。如果在奥古斯塔的流程中被肘，可以点按鼠标右键激活保底机制，代码将不在走固定流程而是尽快打满能量EEER2离场。也可以在此期间自行手动释放技能普攻等，但是后果就是后续的奥古斯塔的轴大概率会乱，所以选什么怪开请自行斟酌。\n",
+      "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n日月守2旋1升轮椅轴\n样本：21日01月11守\n共效：日125月128守275（仅供参考 月最好135左右）\n位置：一号位守 二号位月 三号位日\n实机已跑通 复现难度视boss而定 宝箱开很稳定 但是遇见粪怪 基本上只能打3R 角色机制导致自动战斗无法稳定实现4R\nTips：对于奥古斯塔的流程增加了保底机制。如果在奥古斯塔的流程中被肘，可以点按鼠标右键激活保底机制，代码将不在走固定流程而是尽快打满能量EEER2离场。也可以在此期间自行手动释放技能普攻等，但是后果就是后续的奥古斯塔的轴大概率会乱，所以选什么怪开请自行斟酌。\n",
       "author": "楽山",
       "version": "1.0.0",
       "team": "Augusta, Iuno, Shorekeeper",
@@ -23,21 +23,23 @@
         "Iuno",
         "Shorekeeper"
       ],
-      "size": 60719,
-      "sizeFormatted": "59.30 KB",
+      "size": 60745,
+      "sizeFormatted": "59.32 KB",
       "timestamp": 1788385431,
       "modifiedAt": "2026-09-02T21:43:51.000Z",
       "scenes": [
-        "日常"
+        "矩阵",
+        "深塔",
+        "海墟下半"
       ],
-      "difficulty": "高容错"
+      "difficulty": "椰果"
     },
     {
       "filename": "Augusta_Iuno_Shorekeeper_楽山_2.0.0.zip",
       "downloadUrl": "https://eeeeeeeedison.github.io/wwlibrary/codes/Augusta_Iuno_Shorekeeper_%E6%A5%BD%E5%B1%B1_2.0.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/EEEEEEEEdison/wwlibrary/main/codes/Augusta_Iuno_Shorekeeper_%E6%A5%BD%E5%B1%B1_2.0.0.zip",
       "name": "Augusta_Iuno_Shorekeeper",
-      "description": "【场景】日常\n【难度】低容错\n\n【说明】\n日月守2旋2升进阶轴\n样本：21日01月21守\n共效：日125月128守275（仅供参考 月最好135左右）\n位置：一号位日 二号位月 三号位守\n实机已跑通 复现难度视boss而定 尽量不要打总是飞天的boss 如果最后一轮时间不够 可以自己手动提前长按R2打R2伤害即可\ntips：奥古斯塔开局前需要等待4S 等待一柄剑\n建议在2K/1K分辨率下运行，关闭游戏内插帧开关 开启120帧开关 确保游戏帧数够高且稳定 可以开启N卡插帧 确保网络环境良好稳定\n",
+      "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n日月守2旋2升进阶轴\n样本：21日01月21守\n共效：日125月128守275（仅供参考 月最好135左右）\n位置：一号位日 二号位月 三号位守\n实机已跑通 复现难度视boss而定 尽量不要打总是飞天的boss 如果最后一轮时间不够 可以自己手动提前长按R2打R2伤害即可\ntips：奥古斯塔开局前需要等待4S 等待一柄剑\n建议在2K/1K分辨率下运行，关闭游戏内插帧开关 开启120帧开关 确保游戏帧数够高且稳定 可以开启N卡插帧 确保网络环境良好稳定\n",
       "author": "楽山",
       "version": "2.0.0",
       "team": "Augusta, Iuno, Shorekeeper",
@@ -46,14 +48,16 @@
         "Iuno",
         "Shorekeeper"
       ],
-      "size": 54384,
-      "sizeFormatted": "53.11 KB",
+      "size": 54410,
+      "sizeFormatted": "53.13 KB",
       "timestamp": 1792372592,
       "modifiedAt": "2026-10-19T01:16:32.000Z",
       "scenes": [
-        "日常"
+        "矩阵",
+        "深塔",
+        "海墟下半"
       ],
-      "difficulty": "低容错"
+      "difficulty": "椰果"
     }
   ]
 }
