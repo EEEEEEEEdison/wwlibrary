@@ -25,6 +25,8 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python .github/scripts/sync_download_counts.py
       - name: Commit changes
+        env:
+          SYNC_DEPLOY_KEY: ${{ secrets.SYNC_DEPLOY_KEY }}
         run: |
           if git diff --quiet -- teams.json; then
             echo "no change"
@@ -34,4 +36,13 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add teams.json
           git commit -m "同步下载量"
-          git push
+          if [ -z "$SYNC_DEPLOY_KEY" ]; then
+            echo "SYNC_DEPLOY_KEY is missing; cannot push past branch protection" >&2
+            exit 1
+          fi
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SYNC_DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          git remote set-url origin git@github.com:EEEEEEEEdison/wwlibrary.git
+          GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes" git push

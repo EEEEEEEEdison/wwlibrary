@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 投稿格式说明
+    url: https://github.com/EEEEEEEEdison/wwlibrary/blob/main/CONTRIBUTING.md
+    about: 提 PR 前先看这里，CI 会按这份规则检查
+  - name: 在线索引
+    url: https://eeeeeeeedison.github.io/wwlibrary/
+    about: 先看看已有队伍和代码，避免重复投稿

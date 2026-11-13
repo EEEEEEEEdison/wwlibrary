@@ -1,0 +1,5 @@
+# 这些文件只能由维护者改；配合 “Require review from Code Owners” 使用
+/.github/ @EEEEEEEEdison
+/teams.json @EEEEEEEEdison
+/index.html @EEEEEEEEdison
+/teams/ @EEEEEEEEdison

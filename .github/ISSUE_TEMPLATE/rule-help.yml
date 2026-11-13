@@ -1,0 +1,42 @@
+name: 角色白名单 / 规则问题
+description: 新角色上线、角色名不在白名单、投稿规则有疑问时用这个
+title: "[规则] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        投稿**只走 PR**，请阅读 [CONTRIBUTING.md](https://github.com/EEEEEEEEdison/wwlibrary/blob/main/CONTRIBUTING.md)。
+        这个入口只处理两类事：**新角色加入白名单**、**投稿规则答疑**。代码投稿请直接开 PR。
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 问题类型
+      options:
+        - 新角色不在白名单
+        - 投稿规则不清楚
+        - CI 报错看不懂
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: role
+    attributes:
+      label: 角色英文名（新角色时填）
+      description: 游戏内显示的英文名，大小写按官方写法
+      placeholder: Buling
+    validations:
+      required: false
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体情况
+      description: 附上截图、PR 链接或报错原文，方便定位
+      placeholder: |
+        PR 链接：
+        报错原文：
+        截图：
+    validations:
+      required: true
