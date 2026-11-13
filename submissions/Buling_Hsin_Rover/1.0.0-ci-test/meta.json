@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "name": "CI门禁测试",
+  "team": [
+    "Buling",
+    "Hsin",
+    "Rover"
+  ],
+  "author": "ci-test",
+  "version": "1.0.0",
+  "scenes": [
+    "大世界"
+  ],
+  "difficulty": "高容错",
+  "description": "【说明】\n这是 CI 门禁验证用的投稿，场景故意填错，请勿合并。",
+  "tested": "仅用于验证 CI 拒绝路径，未实机测试。",
+  "license": "CC-BY-NC-SA-4.0"
+}
