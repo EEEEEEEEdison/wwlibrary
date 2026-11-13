@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "name": "代码名（40 字以内）",
+  "team": ["Buling", "Hsin", "Rover"],
+  "author": "你的署名",
+  "version": "1.0.0",
+  "scenes": ["刷4c"],
+  "difficulty": "高容错",
+  "description": "【说明】\n写清起手、循环、关键配置和注意事项，至少 20 字；标题行下面必须有正文。",
+  "tested": "写实机测试情况：角色配置、共鸣链、武器、共鸣效率、测试结果，至少 10 字。",
+  "video": "",
+  "contact": "",
+  "license": "CC-BY-NC-SA-4.0"
+}
