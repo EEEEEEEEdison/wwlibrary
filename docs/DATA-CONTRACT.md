@@ -38,7 +38,7 @@
 投稿 PR 合并到 `main` 后，`.github/workflows/publish-submission.yml` 会自动调用 `.github/scripts/publish_submissions.py` 完成全部发布步骤：
 
 1. 复用 `validate_submission.py` 复核 `submissions/` 下的待发布目录。
-2. 上传 `code.zip` 到 Release（tag `1`），资产名按 `<ASCII前缀>_<version>_<sha8>.zip` 规则生成（已存在同名资产则幂等复用）。
+2. 上传 `code.zip` 到 Release（tag `1`），资产名按 `<Slug>_<version>_<sha8>.zip` 规则生成（已存在同名资产则幂等复用）。
 3. 在 `teams.json` 与 `teams/<Slug>.json` 中写入完整派生字段并更新 `totalTeams` / `totalCodes`。
 4. 核对 `teams.json` 内所有 `assetName` 均真实存在于 Release `1`，确保后续 `sync-downloads` 不会报 `release assets missing`。
 5. 删除已发布的 `submissions/<Slug>/<版本>-<用户名>/` 目录，通过 `SYNC_DEPLOY_KEY` 推送回 `main`，并在关联 PR 下回复下载链接。

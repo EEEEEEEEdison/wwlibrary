@@ -16,7 +16,6 @@ import argparse
 import hashlib
 import json
 import os
-import re
 import shutil
 import sys
 import urllib.error
@@ -121,12 +120,9 @@ def format_size(num_bytes: int) -> str:
     return f"{num_bytes / (1024 * 1024):.2f} MB"
 
 
-def make_asset_name(name: str, version: str, zip_bytes: bytes) -> str:
+def make_asset_name(slug: str, version: str, zip_bytes: bytes) -> str:
     sha8 = hashlib.sha256(zip_bytes).hexdigest()[:8]
-    prefix = re.sub(r"[^A-Za-z0-9]+", "_", name).strip("_")
-    if prefix:
-        return f"{prefix}_{version}_{sha8}.zip"
-    return f"{version}_{sha8}.zip"
+    return f"{slug}_{version}_{sha8}.zip"
 
 
 def format_index_description(raw_description: str, scenes: list[str], difficulty: str) -> str:
@@ -286,7 +282,7 @@ def main() -> int:
 
         zip_path = sub_dir / "code.zip"
         zip_bytes = zip_path.read_bytes()
-        asset_name = make_asset_name(name, version, zip_bytes)
+        asset_name = make_asset_name(slug, version, zip_bytes)
         download_url = f"https://github.com/{REPO}/releases/download/{TAG}/{asset_name}"
         filename = f"{name}_{author}_{version}.zip"
 
