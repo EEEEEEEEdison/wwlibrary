@@ -39,11 +39,12 @@ CI 只能保证“格式对”，不能保证“代码能用、能信”。下�
 - **拒绝**：打 `rejected` 标签，说明原因（搬运、无法实机、恶意代码等），关闭。
 - **拿不准**：打 `needs-test` 标签，自己实机跑一遍再决定。
 
-## 六、合并后
+## 六、合并后（自动完成）
+
+合并 PR 到 `main` 后，`publish-submission` workflow 会自动完成以下动作，只需确认其运行变绿即可：
 
 - [ ] 上传 Release 资产，`assetName` 与 `teams.json` 一致
-- [ ] 更新 `teams.json` 的所有派生字段（见 `docs/DATA-CONTRACT.md`）
-- [ ] 重新生成 `index.html`
+- [ ] 更新 `teams.json` 与 `teams/<Slug>.json` 的所有派生字段（见 `docs/DATA-CONTRACT.md`）
 - [ ] 删除 `submissions/` 下的投稿目录
-- [ ] 等一次 `sync-downloads`，确认没有 `release assets missing`
-- [ ] 在 PR 里回复作者：已发布、下载链接、感谢署名
+- [ ] 在 PR 里自动回复作者：已发布、下载链接、感谢署名
+- [ ] `index.html` 动态读取 `teams.json` 自动展示，后续由 `sync-downloads` 自动同步下载量

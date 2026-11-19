@@ -1,0 +1,77 @@
+name: publish-submission
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "submissions/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: publish-submission
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: ${{ github.event_name == 'workflow_dispatch' || !startsWith(github.event.head_commit.message, '发布投稿：') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 发布投稿到 Release 并更新索引
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_SHA: ${{ github.sha }}
+        run: python .github/scripts/publish_submissions.py --output-json /tmp/published.json
+
+      - name: 提交索引并清理 submissions/
+        env:
+          SYNC_DEPLOY_KEY: ${{ secrets.SYNC_DEPLOY_KEY }}
+        run: |
+          if [ ! -f /tmp/published.json ]; then
+            echo "no published submissions"
+            exit 0
+          fi
+
+          git add -A teams.json teams submissions
+          if git diff --cached --quiet; then
+            echo "no file changes"
+            exit 0
+          fi
+
+          COMMIT_MSG=$(python -c "
+          import json
+          items = json.load(open('/tmp/published.json', encoding='utf-8'))
+          summary = ', '.join(f\"{i['name']} {i['version']} ({i['author']})\" for i in items)
+          print(f'发布投稿：{summary}')
+          ")
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "$COMMIT_MSG"
+
+          if [ -z "$SYNC_DEPLOY_KEY" ]; then
+            echo "SYNC_DEPLOY_KEY is missing; cannot push past branch protection" >&2
+            exit 1
+          fi
+
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SYNC_DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          git remote set-url origin "git@github.com:${GITHUB_REPOSITORY}.git"
+          GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes" git pull --rebase origin main
+          GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes" git push origin main

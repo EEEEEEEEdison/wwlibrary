@@ -33,18 +33,14 @@
 4. **`assetName` 必须真实存在于 Release**。`sync_download_counts.py` 只要发现任何一个 `assetName` 找不到，整个下载量同步就会失败。
 5. **`totalTeams` / `totalCodes` 必须与实际数组长度一致**。插件不校验，但网页会显示错。
 
-## 发布一个投稿的检查顺序
+## 自动发布流程（`publish-submission.yml`）
 
-1. CI 绿。
-2. 上传 `code.zip` 到 Release（tag `1`），资产名按 `assetName` 规则。
-3. 在 `teams.json` 里新增 code，填好上面所有派生字段。
-4. 检查 `assetName` 与 Release 资产完全一致。
-5. 重新生成 `index.html`（如果还没改成动态读取 `teams.json`）。
-6. 删除 `submissions/` 下的投稿目录。
-7. 等一次 `sync-downloads`，确认 `downloadCount` 能正常写入、没有 “release assets missing” 报错。
+投稿 PR 合并到 `main` 后，`.github/workflows/publish-submission.yml` 会自动调用 `.github/scripts/publish_submissions.py` 完成全部发布步骤：
 
-## 建议的一次性改造
+1. 复用 `validate_submission.py` 复核 `submissions/` 下的待发布目录。
+2. 上传 `code.zip` 到 Release（tag `1`），资产名按 `<ASCII前缀>_<version>_<sha8>.zip` 规则生成（已存在同名资产则幂等复用）。
+3. 在 `teams.json` 与 `teams/<Slug>.json` 中写入完整派生字段并更新 `totalTeams` / `totalCodes`。
+4. 核对 `teams.json` 内所有 `assetName` 均真实存在于 Release `1`，确保后续 `sync-downloads` 不会报 `release assets missing`。
+5. 删除已发布的 `submissions/<Slug>/<版本>-<用户名>/` 目录，通过 `SYNC_DEPLOY_KEY` 推送回 `main`，并在关联 PR 下回复下载链接。
 
-现在 `index.html` 是 5000 多行、把队伍数据硬编码进去的静态页；每次加队伍都要重新生成，而生成脚本不在仓库里。建议改成页面启动时 `fetch('teams.json')` 动态渲染。这样发布流程只剩“上传 Release + 更新 teams.json”两步，也不会再出现网页和 `teams.json` 不一致。
-
-改完之后，`index.html` 可以缩到几百行，投稿合并也会快很多。
+`index.html` 已改造为启动时动态 `fetch('teams.json')` 渲染，无需手动重新生成。如需手动补跑，可在 GitHub Actions 页面手动触发 `publish-submission`。

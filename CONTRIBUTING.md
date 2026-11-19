@@ -132,15 +132,18 @@ Windows 上如果 `python` 指向 Microsoft Store，改用 `py .github/scripts/v
 
 如果不同意，请不要提交。
 
-## 维护者发布流程
+## 维护者发布流程（已全自动）
 
 字段如何写进 `teams.json`、插件读哪些字段，见 [docs/DATA-CONTRACT.md](docs/DATA-CONTRACT.md)。
 
 1. PR 通过 `validate-submission` 后，人工检查 `tested` 和代码内容。
-2. 合并到 `main`。
-3. 将 `code.zip` 上传到 Release（tag `1`），资产名按现有规则生成。
-4. 更新 `teams.json`（新增 code、`downloadCount` 归零），重新生成 `index.html`。
-5. 删除 `submissions/<Slug>/<版本>-<用户名>/`，避免仓库体积重复膨胀。
+2. 点击合并到 `main`。
+3. `publish-submission` workflow 会自动运行：
+   - 复核投稿内容，将 `code.zip` 上传到 Release（tag `1`）；
+   - 更新 `teams.json` 与 `teams/<Slug>.json`（`downloadCount` 初始化为 `0`）；
+   - 删除 `submissions/<Slug>/<版本>-<用户名>/`，避免仓库体积重复膨胀；
+   - 在已合并的 PR 下自动回复下载链接与索引地址。
+4. `index.html` 启动时动态读取 `teams.json`，无需手动重新生成；`sync-downloads` 会按小时自动同步下载量。
 
 > 分支保护注意：`sync-downloads.yml` 会直接 push `main`。如果开启 “Require a pull request before merging”，要给 `github-actions[bot]` 加 bypass，或把该 workflow 改成提 PR，否则下载量同步会失败。
 
