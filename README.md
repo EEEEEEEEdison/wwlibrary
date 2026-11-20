@@ -1,18 +1,19 @@
 # wwlibrary 鸣潮队伍代码库
 
-> 鸣潮自动化队伍代码的静态索引平台，按 **队伍 / 场景 / 难度** 多维分类。与 OK-WW（ok-wuthering-waves）生态的「代码获取 (code-fetch)」插件原生打通，支持游戏内一键检索、下载与导入。
+> 鸣潮队伍代码的静态索引平台，按 **队伍 / 场景 / 难度** 多维分类。提供在线网页检索、JSON 聚合接口与 Release 直链下载，支持配合「代码获取 (code-fetch)」插件一键检索、下载与导入。
 
 [![validate-submission](https://github.com/EEEEEEEEdison/wwlibrary/actions/workflows/validate-submission.yml/badge.svg)](https://github.com/EEEEEEEEdison/wwlibrary/actions/workflows/validate-submission.yml)
+[![publish-submission](https://github.com/EEEEEEEEdison/wwlibrary/actions/workflows/publish-submission.yml/badge.svg)](https://github.com/EEEEEEEEdison/wwlibrary/actions/workflows/publish-submission.yml)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
 
 - 🌐 **在线静态索引页**：[https://eeeeeeeedison.github.io/wwlibrary/](https://eeeeeeeedison.github.io/wwlibrary/)
-- 📦 **插件聚合数据源 (JSON)**：[https://eeeeeeeedison.github.io/wwlibrary/teams.json](https://eeeeeeeedison.github.io/wwlibrary/teams.json)
+- 📦 **聚合数据源 (JSON)**：[https://eeeeeeeedison.github.io/wwlibrary/teams.json](https://eeeeeeeedison.github.io/wwlibrary/teams.json)
 - 💾 **代码分发存储**：GitHub Release 资产（纯静态分发，无中心服务器、不收费、不设广告）
 
 ---
 
 ## 目录
-- [客户端搭配与使用](#客户端搭配与使用)
+- [使用方式](#使用方式)
 - [核心分类口径速查](#核心分类口径速查)
 - [如何投稿（30 秒极速指南）](#如何投稿30-秒极速指南)
 - [硬性审查与 CI 门禁规则](#硬性审查与-ci-门禁规则)
@@ -21,14 +22,11 @@
 
 ---
 
-## 客户端搭配与使用
+## 使用方式
 
-本仓库作为上游公共代码库，供 OK-WW 工具链直接抓取与下载：
-
-1. **安装插件**：在 OK-WW 插件目录安装 `code-fetch` 插件。
-2. **默认接入**：插件默认已指向本库（`https://eeeeeeeedison.github.io/wwlibrary`）。
-3. **筛选下载**：在客户端的「代码获取」标签页，按角色、场景、难度筛选心仪队伍，点击「下载」。
-4. **一键导入**：在「角色代码」管理页中直接导入下载的 zip 包即可使用。
+1. **网页检索与下载**：访问 [在线静态索引页](https://eeeeeeeedison.github.io/wwlibrary/)，页面实时读取 `teams.json`，支持按角色中英文名、场景、难度筛选并直接下载 zip 代码包。
+2. **插件一键获取**：安装「代码获取 (`code-fetch`)」插件后，默认已指向本库（`https://eeeeeeeedison.github.io/wwlibrary`），可在插件内按角色、场景、难度筛选、下载并导入。
+3. **JSON 接口调用**：支持读取全量聚合接口 `teams.json` 或按队伍拆分的 `teams/<队伍Slug>.json`。
 
 ---
 
@@ -73,7 +71,8 @@
    - 将游戏导出的队伍代码压缩包上传，重命名为 **`code.zip`**（根目录必须包含 `team.json`）。
 4. **发起 Pull Request (PR)**：
    - 回到原仓库（`EEEEEEEEdison/wwlibrary`），点击 **New pull request**，点击 **Create pull request**。
-   - CI 自动化机器人会在 10 秒内检查格式。如果出现红叉 ❌，点进详情按报错修改即可；绿灯 ✅ 后等待维护者合入！
+   - CI 自动化机器人会在几秒内检查格式。如果出现红叉 ❌，点进详情按报错修改即可；绿灯 ✅ 后等待维护者合入。
+   - **合并即自动发布**：PR 合入 `main` 后，GitHub Actions 会自动将 `code.zip` 发布到 Release、更新 `teams.json` 与 `teams/<Slug>.json`、清理 `submissions/` 暂存目录，并在 PR 下回复下载链接；在线索引页实时刷新，下载量每小时自动同步。
 
 ---
 
@@ -92,6 +91,7 @@
   "tested": "实机跑通 24 小时，01 心 / 21 雷主 / 60 卜灵，无脱轴卡死。",
   "video": "https://www.bilibili.com/video/BVxxxxxx",
   "contact": "QQ: 12345678",
+  "replaces": "",
   "license": "CC-BY-NC-SA-4.0"
 }
 ```
@@ -99,6 +99,7 @@
 ### 字段说明：
 - `team`：角色英文名数组（3~4人），**顺序即为游戏内站位顺序**（[速查表见下文](#常用角色英文名速查表)）。
 - `version`：语义化版本（如 `1.0.0`），同一作者同一队伍再次提交时，版本号必须递增（如 `1.0.1`）。
+- `replaces`（可选）：更新版本时，如需**替换旧版并保留累计下载量**，填写要替换的旧版本号（如 `"1.0.0"`），合并后会自动删旧传新并继承旧版下载数；留空则保留旧版与新版共存。
 - `description`：20~4000 字，必须包含轴顺序、起手要求、循环要点。**请勿只写一两句话**，插件端有字数展示要求。
 - `tested`：10~1000 字，必须陈述实机测试配置（练度、共鸣链、武器）。
 
