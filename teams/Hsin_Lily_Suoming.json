@@ -10,31 +10,32 @@
   "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams/Hsin_Lily_Suoming.json",
   "codes": [
     {
-      "filename": "Hsin_Lily_Suoming_楽山_1.0.0.zip",
-      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hsin_Lily_Suoming_1.0.0_82bf252f.zip",
-      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hsin_Lily_Suoming_1.0.0_82bf252f.zip",
+      "filename": "Hsin_Lily_Suoming_楽山_1.0.1.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hsin_Lily_Suoming_1.0.1_b8c0156e.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hsin_Lily_Suoming_1.0.1_b8c0156e.zip",
       "name": "Hsin_Lily_Suoming",
       "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n心锁莉轮椅轴\n样本：61心 01锁 00莉\n共效：心125 锁130 莉莉260\n位置：一号位莉莉 二号位锁瞑 三号位心\n场景：【矩阵/深塔/海墟下半】\n容错率高，没什么好说的，基础队伍 比较稳定\n",
       "author": "楽山",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "team": "Hsin, Lily, Suoming",
       "members": [
         "Hsin",
         "Lily",
         "Suoming"
       ],
-      "size": 46331,
-      "sizeFormatted": "45.25 KB",
-      "timestamp": 1795071068,
-      "modifiedAt": "2026-11-19T06:51:08.000Z",
+      "size": 47558,
+      "sizeFormatted": "46.44 KB",
+      "timestamp": 1795137651,
+      "modifiedAt": "2026-11-20T01:20:51.000Z",
       "scenes": [
         "矩阵",
         "深塔",
         "海墟下半"
       ],
       "difficulty": "椰果",
-      "assetName": "Hsin_Lily_Suoming_1.0.0_82bf252f.zip",
-      "downloadCount": 0
+      "assetName": "Hsin_Lily_Suoming_1.0.1_b8c0156e.zip",
+      "downloadCount": 11,
+      "downloadCountOffset": 11
     }
   ]
 }
