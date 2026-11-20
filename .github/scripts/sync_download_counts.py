@@ -53,7 +53,8 @@ def main():
             if not asset or asset not in counts:
                 missing.append(code.get("filename"))
                 continue
-            count = counts[asset]
+            offset = int(code.get("downloadCountOffset") or 0)
+            count = offset + counts[asset]
             if code.get("downloadCount") != count:
                 code["downloadCount"] = count
                 changed = True

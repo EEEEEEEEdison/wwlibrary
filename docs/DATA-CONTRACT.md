@@ -18,7 +18,8 @@
 | — | `codes[].timestamp` | 合并时间，Unix 秒 |
 | — | `codes[].modifiedAt` | 合并时间，ISO 8601 UTC，例如 `2026-10-08T16:32:44.000Z` |
 | — | `codes[].size` / `sizeFormatted` | `code.zip` 的字节数 / 人类可读大小 |
-| — | `codes[].downloadCount` | 新投稿固定 `0`，之后由 `sync_download_counts.py` 同步 |
+| `replaces` | 触发替换并生成 `codes[].downloadCountOffset` | 可选，填写同队伍同作者的旧版本号；合并时自动清理旧 Release 资产，把旧版实时累计下载量写入 `downloadCountOffset` 继承 |
+| — | `codes[].downloadCount` | 新增投稿固定 `0`；替换旧版时初始化为继承值；之后由 `sync_download_counts.py` 按 `downloadCountOffset + Release下载量` 同步 |
 | — | `codes[].downloadUrl` / `rawUrl` | Release 资产地址，两者当前相同 |
 | — | `codes[].filename` | 下载到本地的文件名，建议 `<name>_<author>_<version>.zip` |
 | — | `codes[].assetName` | Release 资产名，必须与 Release 里实际上传的文件名一致 |

@@ -36,7 +36,7 @@ META_REQUIRED = {
     "tested",
     "license",
 }
-META_OPTIONAL = {"video", "contact"}
+META_OPTIONAL = {"video", "contact", "replaces"}
 META_KEYS = META_REQUIRED | META_OPTIONAL
 
 VERSION_RE = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
@@ -218,6 +218,21 @@ def check_meta(meta: object, meta_path: Path, slug_dir: str, folder: str, schema
         if not isinstance(contact, str) or len(contact.strip()) > 80:
             err("contact 必须是不超过 80 字的字符串", meta_path)
 
+    replaces_raw = meta.get("replaces", "")
+    replaces = ""
+    if replaces_raw not in ("", None):
+        if not isinstance(replaces_raw, str):
+            err("replaces 必须是 X.Y.Z 形式的旧版本号字符串，不替换就留空字符串", meta_path)
+        else:
+            replaces = replaces_raw.strip()
+            if replaces:
+                if not is_semver(replaces):
+                    err("replaces 必须是 X.Y.Z 形式的语义化版本号，例如 1.0.0", meta_path)
+                elif is_semver(version) and tuple(int(p) for p in version.split(".")) <= tuple(
+                    int(p) for p in replaces.split(".")
+                ):
+                    err(f"新版本号 {version} 必须大于要替换的旧版本号 {replaces}", meta_path)
+
     if meta.get("license") != schema["license"]:
         err(f"license 必须固定为 {schema['license']}（提交即表示同意以此协议分发）", meta_path)
 
@@ -228,6 +243,7 @@ def check_meta(meta: object, meta_path: Path, slug_dir: str, folder: str, schema
         "team": team,
         "scenes": scenes if isinstance(scenes, list) else [],
         "difficulty": difficulty,
+        "replaces": replaces,
         "file": meta_path,
     }
 
@@ -388,6 +404,7 @@ def load_existing_index() -> dict[tuple[str, str, str], str]:
 
 def check_duplicates(new_items: list[dict], existing: dict[tuple[str, str, str], str]) -> None:
     seen: dict[tuple[str, str, str], Path] = {}
+    seen_replaces: dict[tuple[str, str, str], Path] = {}
     latest: dict[tuple[str, str], tuple[tuple[int, int, int], str]] = {}
     for slug, author, version in existing:
         if not is_semver(version):
@@ -416,6 +433,18 @@ def check_duplicates(new_items: list[dict], existing: dict[tuple[str, str, str],
         prev = latest.get((slug, author))
         if prev and tuple(int(part) for part in version.split(".")) <= prev[0]:
             err(f"版本号必须大于已发布的最新版本 {prev[1]}（当前 {version}）", item["file"])
+
+        replaces = item.get("replaces") or ""
+        if replaces and is_semver(replaces):
+            rep_key = (slug, author, replaces)
+            if rep_key not in existing:
+                err(
+                    f"replaces 指定的旧版本 {replaces} 在 teams.json 中不存在（队伍 {slug} / 作者 {author}）",
+                    item["file"],
+                )
+            if rep_key in seen_replaces:
+                err(f"同一批次重复替换了 {slug} / {author} / {replaces}", item["file"])
+            seen_replaces[rep_key] = item["file"]
 
 
 def changed_submission_dirs(base: str, head: str) -> list[Path] | None:

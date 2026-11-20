@@ -10,5 +10,6 @@
   "tested": "写实机测试情况：角色配置、共鸣链、武器、共鸣效率、测试结果，至少 10 字。",
   "video": "",
   "contact": "",
+  "replaces": "",
   "license": "CC-BY-NC-SA-4.0"
 }
