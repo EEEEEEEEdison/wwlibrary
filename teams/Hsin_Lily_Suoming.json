@@ -10,32 +10,31 @@
   "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams/Hsin_Lily_Suoming.json",
   "codes": [
     {
-      "filename": "Hsin_Lily_Suoming_楽山_1.0.1.zip",
-      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hsin_Lily_Suoming_1.0.1_b8c0156e.zip",
-      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hsin_Lily_Suoming_1.0.1_b8c0156e.zip",
+      "filename": "Hsin_Lily_Suoming_楽山_1.0.3.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hsin_Lily_Suoming_1.0.3_10b673c8.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hsin_Lily_Suoming_1.0.3_10b673c8.zip",
       "name": "Hsin_Lily_Suoming",
-      "description": "【场景】矩阵、深塔、海墟下半\n【难度】椰果\n\n【说明】\n心锁莉轮椅轴\n样本：61心 01锁 00莉\n共效：心125 锁130 莉莉260\n位置：一号位莉莉 二号位锁瞑 三号位心\n场景：【矩阵/深塔/海墟下半】\n容错率高，没什么好说的，基础队伍 比较稳定\n",
+      "description": "【场景】矩阵、深塔\n【难度】椰果\n\n【说明】\n心锁莉轮椅轴\n样本：61心 01锁 00莉\n共效：心125 锁130 莉莉260\n位置：一号位莉莉 二号位锁瞑 三号位心\n场景：【矩阵/深塔】\n容错率高，没什么好说的，基础队伍 比较稳定\n\n1.0.3 更新：\n· 莉莉、锁瞑放完 Q 马上接下一招（修 1080p 下莉莉终章后 R 偶尔晚 1 秒）\n\n1.0.2 更新：\n· 兼容原版 OKWW（修原版里心 R1 后不切锁暝）\n· 心插段改回 2A+E，应世心没满就多补一下 A 再 E\n· 循环轴心闪避改成 W+A 斜前闪\n· 莉莉 R 好了直接放，不等图标亮\n",
       "author": "楽山",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "team": "Hsin, Lily, Suoming",
       "members": [
         "Hsin",
         "Lily",
         "Suoming"
       ],
-      "size": 47558,
-      "sizeFormatted": "46.44 KB",
-      "timestamp": 1795137651,
-      "modifiedAt": "2026-11-20T01:20:51.000Z",
+      "size": 49815,
+      "sizeFormatted": "48.65 KB",
+      "timestamp": 1795350502,
+      "modifiedAt": "2026-11-22T12:28:22.000Z",
       "scenes": [
         "矩阵",
-        "深塔",
-        "海墟下半"
+        "深塔"
       ],
       "difficulty": "椰果",
-      "assetName": "Hsin_Lily_Suoming_1.0.1_b8c0156e.zip",
-      "downloadCount": 11,
-      "downloadCountOffset": 11
+      "assetName": "Hsin_Lily_Suoming_1.0.3_10b673c8.zip",
+      "downloadCount": 29,
+      "downloadCountOffset": 29
     }
   ]
 }
