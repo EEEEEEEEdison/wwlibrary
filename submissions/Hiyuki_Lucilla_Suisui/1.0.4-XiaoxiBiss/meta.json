@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "name": "绯洛穗 0链绯雪 长按封顶优化",
+  "team": [
+    "Hiyuki",
+    "Lucilla",
+    "Suisui"
+  ],
+  "author": "笑嘻Biss",
+  "version": "1.0.4",
+  "scenes": [
+    "矩阵",
+    "海墟上半",
+    "海墟下半",
+    "深塔"
+  ],
+  "difficulty": "低容错",
+  "description": "【说明】\n1. 基于 1.0.3 继续修「R1 前重击后多打普攻」：回退 v2/v3 的检测改动（判断前抓帧、盯回路图标、pre_lib_heavy_done），改成减少单次长按时间。\n2. 做法：hold_attack_until_lib 单次按住封顶 HEAVY_HOLD_MAX=2.8 秒 → 松手 → 只轮询 R、不按任何键（wait_lib_quiet，上限 2.5 秒）→ 等不到 R 再按下一轮。\n3. 松手落在重击起手后、重击结束前约 1.8 秒，重击后摇结束时手上没有攻击输入，不会接普攻；R 亮起再按 R1。\n4. 参数敏感：重击后仍多 A 就把 HEAVY_HOLD_MAX 调到 2.6/2.4；R1 变慢或重击打不出就调到 3.0 以上。空手入场（无心念）会多按 1–2 轮，属预期。\n5. 保留 0 链 4 刀路线（启动轴 + 循环轴）；Lucilla.py / Suisui.py 未改。",
+  "tested": "实测配置：01 绯雪 / 00 常驻洛瑟拉 / 00 守专穗穗；矩阵宝箱大猩猩连打，HEAVY_HOLD_MAX=2.8。实机截图见 PR。",
+  "video": "",
+  "contact": "",
+  "replaces": "1.0.3",
+  "license": "CC-BY-NC-SA-4.0"
+}
