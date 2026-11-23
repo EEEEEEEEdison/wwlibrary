@@ -34,7 +34,7 @@
       ],
       "difficulty": "椰果",
       "assetName": "Hiyuki_Lucilla_Suisui_1.0.0_fa0b513b.zip",
-      "downloadCount": 13
+      "downloadCount": 15
     },
     {
       "filename": "Hiyuki_Lucilla_Suisui_楽山_1.0.1.zip",
@@ -88,7 +88,7 @@
       ],
       "difficulty": "椰果",
       "assetName": "Hiyuki_Lucilla_Suisui_1.1.1_bd9ac058.zip",
-      "downloadCount": 10
+      "downloadCount": 12
     },
     {
       "filename": "Hiyuki_Lucilla_Suisui_进入光明2绯0洛3穗_1.0.0.zip",
@@ -145,32 +145,33 @@
       "downloadCount": 4
     },
     {
-      "filename": "绯洛穗 0链绯雪 重击松手优化_笑嘻Biss_1.0.3.zip",
-      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.0.3_caac1898.zip",
-      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.0.3_caac1898.zip",
-      "name": "绯洛穗 0链绯雪 重击松手优化",
-      "description": "【场景】矩阵、海墟上半、海墟下半、深塔\n【难度】高容错\n\n【说明】\n1. 修改自楽山「绯洛穗启动3居循环4居轴」1.1.1，适配 0 链绯雪；起手与循环沿用原轴。\n2. 改动只在 R1（变身）前的「攒心念 → 强化重击 → 放大招」：按住攻击攒心念，回路图标亮过又灭（强化重击已放出）立刻松手；之后只等 R 图标，不再点任何键。\n3. 目的：避免重击时停结束后多打 2–3 下普攻。松手落在重击起手后约 1.6–2.3 秒的窗口（97F 清空心念、140F 重击结束），不靠抢帧。\n4. 回路图标读不到时退化为「按住到 R」，只多普攻、不卡死；误判灭时 2.5 秒内等不到 R 会复位重按一次。\n5. 适用深塔、矩阵、海墟上下半；高容错挂机轴。\n",
+      "filename": "绯洛穗 0链绯雪 长按封顶优化_笑嘻Biss_1.0.4.zip",
+      "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.0.4_54a8ff61.zip",
+      "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Hiyuki_Lucilla_Suisui_1.0.4_54a8ff61.zip",
+      "name": "绯洛穗 0链绯雪 长按封顶优化",
+      "description": "【场景】矩阵、海墟上半、海墟下半、深塔\n【难度】低容错\n\n【说明】\n1. 基于 1.0.3 继续修「R1 前重击后多打普攻」：回退 v2/v3 的检测改动（判断前抓帧、盯回路图标、pre_lib_heavy_done），改成减少单次长按时间。\n2. 做法：hold_attack_until_lib 单次按住封顶 HEAVY_HOLD_MAX=2.8 秒 → 松手 → 只轮询 R、不按任何键（wait_lib_quiet，上限 2.5 秒）→ 等不到 R 再按下一轮。\n3. 松手落在重击起手后、重击结束前约 1.8 秒，重击后摇结束时手上没有攻击输入，不会接普攻；R 亮起再按 R1。\n4. 参数敏感：重击后仍多 A 就把 HEAVY_HOLD_MAX 调到 2.6/2.4；R1 变慢或重击打不出就调到 3.0 以上。空手入场（无心念）会多按 1–2 轮，属预期。\n5. 保留 0 链 4 刀路线（启动轴 + 循环轴）；Lucilla.py / Suisui.py 未改。\n",
       "author": "笑嘻Biss",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "team": "Hiyuki, Lucilla, Suisui",
       "members": [
         "Hiyuki",
         "Lucilla",
         "Suisui"
       ],
-      "size": 39052,
-      "sizeFormatted": "38.14 KB",
-      "timestamp": 1795351154,
-      "modifiedAt": "2026-11-22T12:39:14.000Z",
+      "size": 38885,
+      "sizeFormatted": "37.97 KB",
+      "timestamp": 1795435478,
+      "modifiedAt": "2026-11-23T12:04:38.000Z",
       "scenes": [
         "矩阵",
         "海墟上半",
         "海墟下半",
         "深塔"
       ],
-      "difficulty": "高容错",
-      "assetName": "Hiyuki_Lucilla_Suisui_1.0.3_caac1898.zip",
-      "downloadCount": 0
+      "difficulty": "低容错",
+      "assetName": "Hiyuki_Lucilla_Suisui_1.0.4_54a8ff61.zip",
+      "downloadCount": 13,
+      "downloadCountOffset": 13
     }
   ]
 }
