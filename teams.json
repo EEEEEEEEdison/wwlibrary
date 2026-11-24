@@ -2554,30 +2554,31 @@
       "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams/Carlotta_Shorekeeper_Zhezhi.json",
       "codes": [
         {
-          "filename": "珂折守 矩阵低充轴_笑嘻Biss_1.0.0.zip",
-          "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Carlotta_Shorekeeper_Zhezhi_1.0.0_86c0581b.zip",
-          "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Carlotta_Shorekeeper_Zhezhi_1.0.0_86c0581b.zip",
+          "filename": "珂折守 矩阵低充轴_笑嘻Biss_1.0.1.zip",
+          "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Carlotta_Shorekeeper_Zhezhi_1.0.1_8254047d.zip",
+          "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Carlotta_Shorekeeper_Zhezhi_1.0.1_8254047d.zip",
           "name": "珂折守 矩阵低充轴",
-          "description": "【场景】深塔、矩阵\n【难度】低容错\n\n【说明】\n1. 珂折守（珂莱塔 / 折枝 / 守岸人）矩阵低充无缝轴，一号位守岸人；首轮与循环按交场链执行，唯一 f→s 边是珂 f3 → 折 s1。\n2. 在 3.19.0 基线上做六项提速：折第二次 3a 改 4a 补灵韵；3 鹤连段提速（E_TO_A 0.35、DODGE_TO_E 0.18、E2_INTERVAL 0.15、窗口 2.7/2.2）；q(闪)R 去闪、声骸只发一次；守 R 后切人加快（SWITCH_SETTLE 0.06）；守 3a-Z-qR 再压（A_INTERVAL 0.32 等）；折 q 后的闪取消。\n3. 低充能需求：珂 107%+、折 127%+；0+1 队伍，编队 1 守 / 2 折 / 3 珂。\n4. 适用深塔与矩阵；矩阵宝箱大猩猩连打余约 10 秒。\n5. 调参入口：3a 后窗口不够（I42）加到 0.55；3 鹤 2.7 窗口少段回 3.0（I43）；删 q 后闪有影响就只保留一处（I44）。\n",
+          "description": "【场景】深塔、矩阵\n【难度】低容错\n\n【说明】\n1. 珂折守（珂莱塔 / 折枝 / 守岸人）矩阵低充无缝轴，一号位折枝开局；首轮与循环按交场链执行，唯一 f→s 边是珂 f3 → 折 s1。\n2. 折枝测试使用脱手声骸（赫卡忒或梦魇冰蚊子），暗鸟未测试（大概率不适配）。\n3. 低充能需求：珂 107%+、折 127%+；0+1 队伍，编队 1 折 / 2 守 / 3 珂。\n4. 适用深塔与矩阵。\n5. 调参入口：3a 后窗口不够（I42）加到 0.55；3 鹤 2.7 窗口少段回 3.0（I43）。\n",
           "author": "笑嘻Biss",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "team": "Carlotta, Shorekeeper, Zhezhi",
           "members": [
             "Carlotta",
             "Shorekeeper",
             "Zhezhi"
           ],
-          "size": 33263,
-          "sizeFormatted": "32.48 KB",
-          "timestamp": 1795435326,
-          "modifiedAt": "2026-11-23T12:02:06.000Z",
+          "size": 33061,
+          "sizeFormatted": "32.29 KB",
+          "timestamp": 1795497999,
+          "modifiedAt": "2026-11-24T05:26:39.000Z",
           "scenes": [
             "深塔",
             "矩阵"
           ],
           "difficulty": "低容错",
-          "assetName": "Carlotta_Shorekeeper_Zhezhi_1.0.0_86c0581b.zip",
-          "downloadCount": 0
+          "assetName": "Carlotta_Shorekeeper_Zhezhi_1.0.1_8254047d.zip",
+          "downloadCount": 1,
+          "downloadCountOffset": 1
         }
       ]
     }
