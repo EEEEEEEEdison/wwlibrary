@@ -2,8 +2,8 @@
   "repository": "EEEEEEEEdison/wwlibrary",
   "pageUrl": "https://eeeeeeeedison.github.io/wwlibrary",
   "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams.json",
-  "totalTeams": 49,
-  "totalCodes": 72,
+  "totalTeams": 50,
+  "totalCodes": 73,
   "teams": [
     {
       "team": "Baizhi, Phrolova, Verina",
@@ -2579,6 +2579,45 @@
           "assetName": "Carlotta_Shorekeeper_Zhezhi_1.0.1_8254047d.zip",
           "downloadCount": 13,
           "downloadCountOffset": 1
+        }
+      ]
+    },
+    {
+      "team": "Galbrena, Lupa, Shorekeeper",
+      "slug": "Galbrena_Lupa_Shorekeeper",
+      "members": [
+        "Galbrena",
+        "Lupa",
+        "Shorekeeper"
+      ],
+      "totalCodes": 1,
+      "jsonUrl": "https://eeeeeeeedison.github.io/wwlibrary/teams/Galbrena_Lupa_Shorekeeper.json",
+      "codes": [
+        {
+          "filename": "嘉露守 轮椅轴_XiaoxiBiss_1.0.0.zip",
+          "downloadUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Galbrena_Lupa_Shorekeeper_1.0.0_3e4e5a2d.zip",
+          "rawUrl": "https://github.com/EEEEEEEEdison/wwlibrary/releases/download/1/Galbrena_Lupa_Shorekeeper_1.0.0_3e4e5a2d.zip",
+          "name": "嘉露守 轮椅轴",
+          "description": "【场景】矩阵、深塔\n【难度】低容错\n\n【说明】\n1. 嘉露守（嘉贝莉娜 / 露帕 / 守岸人）三人 0 链的轮椅轴。启动轴：守岸人 AAEAAZ → 嘉贝莉娜 ZZZ → 守岸人 AAAZRZ（延奏）；之后循环：露帕 REAAA → 嘉贝 AA → 露帕 AE → 守岸人 AAAQ → 嘉贝 AA → 露帕 EEQ（延奏）→ 嘉贝 QER + AAAA闪AAA闪A + ZZZ（延奏）→ 守岸人 EAAZRZ（延奏）→ 回到露帕。\n2. 编队建议：1 号位守岸人 / 2 露帕 / 3 嘉贝莉娜。\n3. 共鸣效率：嘉贝莉娜  120%、露帕 120%、守岸人拉满。\n4.实战测试发现守延奏切露帕有时会协奏值差一点点，嘉贝3翅2踢有时候最后一踢打不出来，暂未发现原因或找到解决办法。\n",
+          "author": "XiaoxiBiss",
+          "version": "1.0.0",
+          "team": "Galbrena, Lupa, Shorekeeper",
+          "members": [
+            "Galbrena",
+            "Lupa",
+            "Shorekeeper"
+          ],
+          "size": 28529,
+          "sizeFormatted": "27.86 KB",
+          "timestamp": 1795793828,
+          "modifiedAt": "2026-11-27T15:37:08.000Z",
+          "scenes": [
+            "矩阵",
+            "深塔"
+          ],
+          "difficulty": "低容错",
+          "assetName": "Galbrena_Lupa_Shorekeeper_1.0.0_3e4e5a2d.zip",
+          "downloadCount": 0
         }
       ]
     }
